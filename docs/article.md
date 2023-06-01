@@ -3,7 +3,7 @@
 This is my first article with some code:
 
 ```csharp
-class Test
+class Testing
 {
     static void Main()
     {
