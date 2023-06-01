@@ -12,9 +12,6 @@ on:
 permissions:
   contents: write
 
-  # Allows you to run this workflow manually from the Actions tab
-workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -23,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-   steps:
+    steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
