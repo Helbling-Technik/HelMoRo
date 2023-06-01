@@ -1,1 +1,7 @@
 site_name: My Docs
+site_url: https://example.com/
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Article: article.md
