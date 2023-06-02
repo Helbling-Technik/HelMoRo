@@ -2,7 +2,7 @@ site_name: HelMoRo
 site_url: https://example.com/
 theme:
   name: material
-  logo: assests/logo.png
+  logo: assets/Helbling_Logo_weiss.png
   favicon: images/favicon.png
   palette:
     scheme: slate
@@ -14,6 +14,11 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - navigation.tracking
+    - navigation.top
+    #- navigation.tabs
+    #- navigations.tabs.sticky
+    - toc.integrate
 plugins:
   -privacy:
     enabled: !ENV [CI, false]
@@ -22,8 +27,18 @@ plugins:
         - en
         - de
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
-
+copyright: >
+  Copyright &copy; 2016 - 2023 Helbling Technik Zürich –
+  <a href="#__consent">Change cookie settings</a>
   
   
 nav:
