@@ -2,8 +2,8 @@ site_name: HelMoRo
 site_url: https://example.com/
 theme:
   name: material
-  logo: assets/Helbling_Logo_weiss.png
-  favicon: images/favicon.png
+  logo: assets/logos/Helbling_Logo_weiss.png
+  favicon: assets/logos/Helbling_Favicon.png
   palette:
     scheme: slate
     # To change with https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
@@ -43,4 +43,6 @@ copyright: >
   
 nav:
     - Home: index.md
-    - Article: article.md
+    - Hardware: article.md
+    - Software: article.md
+    - About: mkdocs_docu.md

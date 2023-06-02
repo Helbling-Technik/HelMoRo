@@ -1,25 +1,27 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<iframe width="1000" height="565" src="https://www.youtube.com/embed/QdNnvhEyrZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Commands
+Helmoro is a four wheeled, skid steered navigation robot, equipped with:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- 4 DC-Motors and 4 angular encoders
+- 4 2 [Roboclaw Motor Controllers](https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html) to control their motion.
+- 1 Lidar ([RPLidar Slamtec](https://www.slamtec.com/en/Lidar/A2))
+- 1 RGB-D camera ([Orbbec Astra Pro](https://orbbec3d.com/product-astra-pro/))
+- 1 IMU ([Adafruit BNO055 Absolut Orientation](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor))
+- 1 [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) with Ubuntu 18.04
 
-## Project layout
+Helmoro is developed by Helbling Technik. An overview of Helmoro's components is shown in the following picture.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![helmoro_intro](assets/readme_pictures/helmoro_intro.png)
 
-# Welcome to My Docs
+Helmoro has the following capabilities, which can be used also within a Gazebo simulation ([Simulation](#simulation)):
 
-This is the front page of My Docs.
+- Video, map and position streaming to local computer
+- Remote joystick control
+- Autonomous Navigation to set goal positions
+- Object detection and autonomous pickup
+- Remote controlled mapping
+- Autonomous mapping
+- Finger gesture as commands for Autonomous pickup [WIP]
 
-## Sub
-
-This is another section.
