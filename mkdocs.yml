@@ -1,7 +1,31 @@
-site_name: My Docs
+site_name: HelMoRo
 site_url: https://example.com/
 theme:
   name: material
+  logo: assests/logo.png
+  favicon: images/favicon.png
+  palette:
+    scheme: slate
+    # To change with https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
+    primary: indigo
+    accent: light blue
+  font:
+    text: Sora
+  features:
+    - search.suggest
+    - search.highlight
+plugins:
+  -privacy:
+    enabled: !ENV [CI, false]
+  - search:
+      lang: 
+        - en
+        - de
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+
+  
+  
 nav:
     - Home: index.md
     - Article: article.md
