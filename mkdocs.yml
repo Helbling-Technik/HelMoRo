@@ -16,12 +16,12 @@ theme:
     - search.highlight
     - navigation.tracking
     - navigation.top
-    #- navigation.tabs
-    #- navigations.tabs.sticky
+    - navigation.tabs
+    - navigations.tabs.sticky
     - toc.integrate
 plugins:
-  - privacy:
-    enabled: !ENV [CI, false]
+  #- privacy:
+  #  enabled: !ENV [CI, false]
   - search:
       lang: 
         - en
