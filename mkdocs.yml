@@ -20,7 +20,7 @@ theme:
     #- navigations.tabs.sticky
     - toc.integrate
 plugins:
-  -privacy:
+  - privacy:
     enabled: !ENV [CI, false]
   - search:
       lang: 
