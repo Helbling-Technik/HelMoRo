@@ -12,21 +12,14 @@ theme:
   font:
     text: Sora
   features:
-    - search.suggest
-    - search.highlight
-    - navigation.tracking
+    #  - navigation.tracking
     - navigation.top
     - navigation.tabs
-    - navigations.tabs.sticky
+    - navigation.tabs.sticky
     - toc.integrate
-plugins:
-  #- privacy:
-  #  enabled: !ENV [CI, false]
-  - search:
-      lang: 
-        - en
-        - de
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+    - search.suggest
+    - search.highlight
+
 extra:
   consent:
     title: Cookie consent
@@ -39,10 +32,22 @@ extra:
 copyright: >
   Copyright &copy; 2016 - 2023 Helbling Technik Zürich –
   <a href="#__consent">Change cookie settings</a>
-  
+
+plugins:
+  #- privacy:
+  #  enabled: !ENV [CI, false]
+  - search:
+      lang: 
+        - en
+        - de
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+markdown_extensions:
+  - markdown_include.include
   
 nav:
-    - Home: index.md
-    - Hardware: article.md
+    - Introduction: index.md
+    - Hardware: hardware.md
     - Software: article.md
+    - Collaboration: article.md
     - About: mkdocs_docu.md
