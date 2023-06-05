@@ -57,3 +57,6 @@ plugins:
 
 markdown_extensions:
   - markdown_include.include
+  - toc:
+      permalink: True
+
