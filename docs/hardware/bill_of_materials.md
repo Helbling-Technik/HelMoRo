@@ -1,3 +1,6 @@
+## Bill of Materials
+
+here you can find the bill of materials, which gives you information about all the parts in HelMoRo.
 
 | POS | QTY | DOCUMENT-NR. | DESCRIPTION | Manufacturing type | PRODUCT CODE | possible Supplier | Price per unit (CHF) | Price total (CHF) |
 | --- | --- | ------------ | ----------- | ------------------ | ------------ | ----------------- | -------------------- | ----------------- |

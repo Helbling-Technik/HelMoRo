@@ -1,5 +1,18 @@
+
 site_name: HelMoRo
 site_url: https://example.com/
+
+  
+nav:
+    - Introduction: index.md
+    - Hardware: 
+        - HW Introduction: hardware/hardware_introduction.md
+        - Bill of Materials: hardware/bill_of_materials.md
+        - Assembly Instructions: hardware/assembly_instructions.md
+    - Software: article.md
+    - Collaboration: article.md
+    - About: mkdocs_docu.md
+
 theme:
   name: material
   logo: assets/logos/Helbling_Logo_weiss.png
@@ -44,10 +57,3 @@ plugins:
 
 markdown_extensions:
   - markdown_include.include
-  
-nav:
-    - Introduction: index.md
-    - Hardware: hardware.md
-    - Software: article.md
-    - Collaboration: article.md
-    - About: mkdocs_docu.md
