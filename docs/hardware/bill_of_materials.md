@@ -1,6 +1,6 @@
 ## Bill of Materials
 
-here you can find the bill of materials, which gives you information about all the parts in HelMoRo.
+here you can find the bill of materials, which gives you information about all the parts in HelMoRo. Some suppliers are listed, where the resepective parts can be bought. We try to keep the list updated, but it might be that some parts are not in stock anymore.
 
 Please note that 51 - 54 are only necessary if HelMoRo wants to be used to transport an Ipad.
 
