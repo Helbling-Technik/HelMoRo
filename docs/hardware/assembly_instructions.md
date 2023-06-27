@@ -34,7 +34,7 @@ By following these assembly instructions and referring to the electronic system 
 
 ![Image](assembly_instructions/T1S1.png)
 
-Securely mount the motor into the frame mount using 6x M3x8 screws.
+Securely mount the motor into the frame mount using 6x M3x8 screws. The first motor should be attached where the frame mount does not allow for sliding in the motor (back right).
 
 
 ### Step 2: Wheel Adapter
@@ -64,6 +64,10 @@ Attach the wheel adapter to the motor assembly using 1x M3x12 screw.
 Install the wheel onto the wheel adapter using 4x M3x8 screws.
 
 **Good job! Now 3 more to go.**
+
+![Image](assembly_instructions/T1END.png)
+This is how your assembly should look after all the wheels have been attached.
+
 
 ## Task 2: Chassis
 

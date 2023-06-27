@@ -10,7 +10,7 @@ here you can find the bill of materials, which gives you information about all t
 | 2   | 1   | HEL-04-01010-01 | Top Plate    | Sheet metal               |                                 | Schickli     | 80                   | 80                |
 | 3   | 12  | PEM CLA-M3-1 -N | Clamping Nut |                             |                                 | Schickli     |                      | 0                 |
 | 4   | 61  | DIN 7984 - M3 x 8 - 6.5N | Screw M3x8 |                          |                                 | Stock                                              |                      | 0                 |
-| 5   | 4   | HEL-04-01001-00 | Motor FIT 0186 | FIT 0186                 |                                 | Robotshop<br> [Link](https://eu.robotshop.com/de/products/12v-dc-motor-251rpm-encoder) | 30                   | 120               |
+| 5   | 4   | HEL-04-01001-00 |  Motor FIT 0186 | | FIT 0186                 |                                 | Robotshop<br> [Link](https://eu.robotshop.com/de/products/12v-dc-motor-251rpm-encoder) | 30                   | 120               
 | 6   | 4   | HEL-06-01000-00 | Wheel        | "pololu-wheel-90x10mm-<br>black (4935)" |                            | Robotshop<br> [Link](https://www.pololu.com/product/4935/) | 3                    | 12                |
 | 7   | 4   | HEL-06-01002-00 | Wheel Adapter | Pololu 1083               |                                 | Robotshop<br> [Link](https://www.pololu.com/product/1083) | 4                    | 16                |
 | 8   | 4   | HEL-04-03000-01 | Wheel Cap    | Generative process        |                                 | Helbling 3D Printer                                |                      | 0                 |
