@@ -4,6 +4,8 @@
 
 Before we begin the assembly process, let's familiarize ourselves with the electronic system architecture of HelMoRo. This overview will provide a clear understanding of the system's components and their interconnections. Please refer to the following diagram:
 
+The part numbers are the same as in the BoM link.
+
 ![Electronical architecture](helmoro_electronical_architecture.drawio.png)
 [Download Electronical Architecture](Helmoro_Electronical_Architecture.drawio.pdf)
 
