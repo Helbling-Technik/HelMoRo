@@ -4,9 +4,10 @@
 
 Before we begin the assembly process, let's familiarize ourselves with the electronic system architecture of HelMoRo. This overview will provide a clear understanding of the system's components and their interconnections. Please refer to the following diagram:
 
-The part numbers are the same as in the BoM link.
+The part numbers are the same as in the [Bill of Materials](bill_of_materials.md).
 
-![Electronical architecture](helmoro_electronical_architecture.drawio.png)
+![Electronical architecture](helmoro_electronical_architecture.drawio.png){: style="height:89%;width:89%"}
+
 [Download Electronical Architecture](Helmoro_Electronical_Architecture.drawio.pdf)
 
 By following these assembly instructions and referring to the electronic system architecture, you'll be well-equipped to successfully assemble HelMoRo. Let's get started!
@@ -201,10 +202,9 @@ Connect the battery protection module using the battery cable to the Battery Con
 
 ![Image](assembly_instructions/T2S9.png)
 
-Assemble the DC/DC converter, LED voltmeter, and power switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture.
+Assemble the DC/DC converter, LED voltmeter, and power switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture and the Prototyping Board below.
 
-![Image](assembly_instructions/prototyping_board.drawio.png)
-
+![Image](assembly_instructions/prototyping_board.drawio.png){: style="height:89%;width:89%"}
 
 ### Step 10: Ciruit Board Box
 

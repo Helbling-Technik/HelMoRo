@@ -54,9 +54,12 @@ plugins:
         - en
         - de
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - table-reader
 
 markdown_extensions:
   - markdown_include.include
+  - attr_list
+  - tables
   - toc:
       permalink: True
 
