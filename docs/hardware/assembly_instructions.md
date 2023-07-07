@@ -64,7 +64,7 @@ Attach the wheel adapter to the motor assembly using 1x M3x12 screw.
 
 ![Image](assembly_instructions/T1S3.png)
 
-Install the wheel onto the wheel adapter using 4x M3x8 screws.
+Fix the wheel onto the wheel adapter using 4x M3x8 screws.
 
 **Good job! Now 3 more to go.**
 
@@ -242,7 +242,6 @@ Attach the voltmeter using 2x M2x5 screws and 2x M2 nuts.
 Attach the Power Switch.
 
 
-
 ### Step 13: Connect Cables
 
 ![Image](assembly_instructions/T2S13.png)
@@ -273,7 +272,7 @@ Connect all the cables according to the Electronic System Architecture. The cabl
 
 ![Image](assembly_instructions/T3S1.png)
 
-Attach the Power Supply Connector to the Hood. This step can be done by hand or with the 18 mm wrench.
+Attach the Power Supply Connector to the Hood. 
 
 ### Step 2: LIDAR
 
@@ -379,4 +378,4 @@ Optionally, Wheel Caps can be attached to the wheel.
 
 ![Image](assembly_instructions/T3S9.png)
 
-Optionally, the front part can be replaced and a Fork can be added. The fork can be attached by using 4x M3x30 screws.
+Optionally, the front part can be replaced and a Fork can be added. The Fork can be attached by using 4x M3x30 screws.
