@@ -68,6 +68,7 @@ Install the wheel onto the wheel adapter using 4x M3x8 screws.
 **Good job! Now 3 more to go.**
 
 ![Image](assembly_instructions/T1END.png)
+
 This is how your assembly should look after all the wheels have been attached.
 
 
@@ -97,7 +98,7 @@ This is how your assembly should look after all the wheels have been attached.
 
 ![Image](assembly_instructions/T2S1.png)
 
-Attach the motor controller plate to the top plate using 2x M3x4 screws. 
+Attach the motor controller plate to the top plate using 2x M3x4 screws.
 
 
 ### Step 2: IMU
@@ -187,7 +188,7 @@ Connect the USB cables as shown in the image and the Electronic System Architect
 
 ![Image](assembly_instructions/T2S8.png)
 
-Install the battery protection module and connect the battery cable and connector. Use the Electronic System Architecture.
+Connect the battery protection module using the battery cable to the Battery Connector. Use the Electronic System Architecture.
 
 ### Step 9: DC / DC Converter
 
@@ -200,7 +201,9 @@ Install the battery protection module and connect the battery cable and connecto
 
 ![Image](assembly_instructions/T2S9.png)
 
-Install the DC/DC converter, LED voltmeter, and power switch as shown in the image. Solder the connections according to the Electronic System Architecture.
+Assemble the DC/DC converter, LED voltmeter, and power switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture.
+
+![Image](assembly_instructions/prototyping_board.drawio.png)
 
 
 ### Step 10: Ciruit Board Box
@@ -244,7 +247,7 @@ Attach the Power Switch.
 
 ![Image](assembly_instructions/T2S13.png)
 
-Connect all the cables according to the Electronic System Architecture. The cables to the battery and the one power cable to the lidar remain unconnected for now.
+Connect all the cables according to the Electronic System Architecture. The cables to the battery and the one power cable to the LIDAR remain unconnected for now.
 
 **Good job! Now only the body remains to go.**
 
@@ -272,19 +275,19 @@ Connect all the cables according to the Electronic System Architecture. The cabl
 
 Attach the Power Supply Connector to the Hood. This step can be done by hand or with the 18 mm wrench.
 
-### Step 2: Lidar
+### Step 2: LIDAR
 
 **Required Parts:**
 
-- 1x HEL-06-01008-00 / Lidar
-- 1x HEL-06-01007-00 / Lidar Adapter
+- 1x HEL-06-01008-00 / LIDAR
+- 1x HEL-06-01007-00 / LIDAR Adapter
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 
 
 ![Image](assembly_instructions/T3S2.png)
 
-Attach the Lidar using 4x M3x8 screws.
+Attach the LIDAR using 4x M3x8 screws.
 
 
 ### Step 3: Camera
