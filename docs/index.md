@@ -11,9 +11,11 @@ Helmoro is a four wheeled, skid steered navigation robot, equipped with:
 - 1 IMU ([Adafruit BNO055 Absolut Orientation](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor))
 - 1 [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) with Ubuntu 18.04
 
-Helmoro is developed by Helbling Technik. An overview of Helmoro's components is shown in the following picture.
+Helmoro is developed by Helbling Technik. An overview of Helmoro's components is shown in the following model.
 
-![helmoro_intro](assets/readme_pictures/helmoro_intro.png)
+<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c9913f21ef2baf79ffb?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+[comment]: <> (![helmoro_intro](assets/readme_pictures/helmoro_intro.png))
 
 Helmoro has the following capabilities, which can be used also within a Gazebo simulation ([Simulation](#simulation)):
 
