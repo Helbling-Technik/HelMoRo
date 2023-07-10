@@ -13,7 +13,7 @@ Helmoro is a four wheeled, skid steered navigation robot, equipped with:
 
 Helmoro is developed by Helbling Technik. An overview of Helmoro's components is shown in the following model.
 
-<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c9913f21ef2baf79ffb?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c995f78762c49c62d88?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 [comment]: <> (![helmoro_intro](assets/readme_pictures/helmoro_intro.png))
 

@@ -2,9 +2,8 @@
 
 ## Electronic System Architecture
 
-Before we begin the assembly process, let's familiarize ourselves with the electronic system architecture of HelMoRo. This overview will provide a clear understanding of the system's components and their interconnections. Please refer to the following diagram:
+Before we begin the assembly process, let's familiarize ourselves with the electronic system architecture of HelMoRo. This overview will provide a clear understanding of the system's components and their interconnections. The part numbers are the same as in the [Bill of Materials](bill_of_materials.md).
 
-The part numbers are the same as in the [Bill of Materials](bill_of_materials.md).
 
 ![Electronical architecture](helmoro_electronical_architecture.drawio.png){: style="height:89%;width:89%"}
 
@@ -162,7 +161,7 @@ Place the Underlay Plate for Jetson onto the Top Plate. Attach the Jetson on the
 
 ![Image](assembly_instructions/T2S6.png)
 
-Mount the first Motor Controller and the orange motor controller holder using the screws provided in the motor controller kit. Attach the second Motor Controller on the Motor Controller Holder.
+Mount the first Motor Controller and the orange Motor Controller Holder using the screws provided in the Motor Controller Kit. Attach the second Motor Controller on the Motor Controller Holder.
 
 
 ### Step 7: Connect Cables
@@ -189,7 +188,7 @@ Connect the USB cables as shown in the image and the Electronic System Architect
 
 ![Image](assembly_instructions/T2S8.png)
 
-Connect the battery protection module using the battery cable to the Battery Connector. Use the Electronic System Architecture.
+Solder the Battery Cables and Battry Connector to the Battery Protection Module. Use the Electronic System Architecture.
 
 ### Step 9: DC / DC Converter
 
@@ -202,7 +201,7 @@ Connect the battery protection module using the battery cable to the Battery Con
 
 ![Image](assembly_instructions/T2S9.png)
 
-Assemble the DC/DC converter, LED voltmeter, and power switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture and the Prototyping Board below.
+Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture and the Prototyping Board below.
 
 ![Image](assembly_instructions/prototyping_board.drawio.png){: style="height:89%;width:89%"}
 
@@ -216,11 +215,11 @@ Assemble the DC/DC converter, LED voltmeter, and power switch as shown in the im
 
 ![Image](assembly_instructions/T2S10_1.png)
 
-Place the Battery Protection on the lowest part of the Circuit Board Holder. Make sure that the cables are oriented correctly ad leave the box as shown in the image. Place the second part of the Circuit Board Holder on the Battery Protection and hold it.
+Place the Battery Protection on the lowest part of the Circuit Board Holder. Make sure that the cables are oriented correctly so that they leave the box as shown in the image. Place the second part of the Circuit Board Holder on the Battery Protection Module.
 
 ![Image](assembly_instructions/T2S10_2.png)
 
-Place the DC/DC Converter on top of the second part of the Circuit Board Holder. Assemble the whole circuit board holder using 3x M3x30 screws.
+Place the DC/DC Converter on top of the second part of the Circuit Board Holder. Assemble the whole Circuit Board Holder using 3x M3x30 screws.
 
 
 ### Step 11: Voltmeter
@@ -239,7 +238,7 @@ Attach the voltmeter using 2x M2x5 screws and 2x M2 nuts.
 
 ![Image](assembly_instructions/T2S12.png)
 
-Attach the Power Switch.
+Attach the Power Switch with the 8 mm hex-head socket.
 
 
 ### Step 13: Connect Cables
@@ -272,7 +271,7 @@ Connect all the cables according to the Electronic System Architecture. The cabl
 
 ![Image](assembly_instructions/T3S1.png)
 
-Attach the Power Supply Connector to the Hood. 
+Attach the Power Supply Connector to the Hood.
 
 ### Step 2: LIDAR
 
@@ -286,7 +285,7 @@ Attach the Power Supply Connector to the Hood.
 
 ![Image](assembly_instructions/T3S2.png)
 
-Attach the LIDAR using 4x M3x8 screws.
+Mount the LIDAR on the Hood using 4x M3x8 screws.
 
 
 ### Step 3: Camera
