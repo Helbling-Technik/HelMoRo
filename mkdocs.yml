@@ -7,6 +7,7 @@ nav:
     - Introduction: index.md
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
+        - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
     - Software: article.md
     - Collaboration: article.md

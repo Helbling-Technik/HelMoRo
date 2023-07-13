@@ -1,16 +1,6 @@
 # Assembly Instructions
 
-## Electronic System Architecture
-
-Before we begin the assembly process, let's familiarize ourselves with the electronic system architecture of HelMoRo. This overview will provide a clear understanding of the system's components and their interconnections. The part numbers are the same as in the [Bill of Materials](bill_of_materials.md).
-
-
-![Electronical architecture](helmoro_electronical_architecture.drawio.png){: style="height:89%;width:89%"}
-
-[Download Electronical Architecture](Helmoro_Electronical_Architecture.drawio.pdf)
-
-By following these assembly instructions and referring to the electronic system architecture, you'll be well-equipped to successfully assemble HelMoRo. Let's get started!
-
+By following these assembly instructions, you'll be well-equipped to successfully assemble HelMoRo. Let's get started!
 
 ## Task 1: Wheel assembly
 
@@ -173,7 +163,7 @@ Mount the first Motor Controller and the orange Motor Controller Holder using th
 
 ![Image](assembly_instructions/T2S7.png)
 
-Connect the USB cables as shown in the image and the Electronic System Architecture.
+Connect the USB cables as shown in the image and the [Electronic System Architecture](electronic_system_architecture.md).
 
 
 
@@ -188,7 +178,7 @@ Connect the USB cables as shown in the image and the Electronic System Architect
 
 ![Image](assembly_instructions/T2S8.png)
 
-Solder the Battery Cables and Battry Connector to the Battery Protection Module. Use the Electronic System Architecture.
+Solder the Battery Cables and Battry Connector to the Battery Protection Module. Use the [Electronic System Architecture](electronic_system_architecture.md).
 
 ### Step 9: DC / DC Converter
 
@@ -201,7 +191,7 @@ Solder the Battery Cables and Battry Connector to the Battery Protection Module.
 
 ![Image](assembly_instructions/T2S9.png)
 
-Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the Electronic System Architecture and the Prototyping Board below.
+Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch as shown in the image. The second image is mirrored so that you can compare it to the left image. Solder the connections according to the [Electronic System Architecture](electronic_system_architecture.md) and the Prototyping Board below.
 
 ![Image](assembly_instructions/prototyping_board.drawio.png){: style="height:89%;width:89%"}
 
@@ -245,7 +235,7 @@ Attach the Power Switch with the 8 mm hex-head socket.
 
 ![Image](assembly_instructions/T2S13.png)
 
-Connect all the cables according to the Electronic System Architecture. The cables to the battery and the one power cable to the LIDAR remain unconnected for now.
+Connect all the cables according to the [Electronic System Architecture](electronic_system_architecture.md). The cables to the battery and the one power cable to the LIDAR remain unconnected for now.
 
 **Good job! Now only the body remains to go.**
 
