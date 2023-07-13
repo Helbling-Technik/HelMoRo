@@ -4,7 +4,7 @@ Welcome to Helmoro, a versatile and powerful four-wheeled robot designed by Helb
 
 ## Overview
 
-Helmoro is equipped with state-of-the-art components that enable it to perform a wide range of tasks. Let's take a closer look at its key features:
+Helmoro is equipped with state-of-the-art components that enable it to perform a wide range of tasks. An overview over all components can be found in the [Bill of Materials](hardware/bill_of_materials.md). Let's take a closer look at its key features:
 
 ### Robust Construction
 
@@ -50,5 +50,10 @@ Helmoro offers a wide range of capabilities, making it a versatile and intellige
 
 - **Finger Gesture Commands:** Under development is the ability for Helmoro to interpret finger gestures as commands for autonomous pickup tasks, adding a touch of interactivity to its functionality.
 
-## Conclusion
-Helmoro offers an accessible and versatile platform for robotics enthusiasts and professionals. With its robust construction, advanced sensors, and powerful computing capabilities, Helmoro is ready to tackle a wide range of applications, from autonomous navigation and mapping to object detection and pickup tasks. Whether you're a beginner or an experienced roboticist, Helmoro is the perfect companion to explore the exciting world of robotics.
+## Get Started Building Your Helmoro
+
+Ready to embark on your robotics journey with Helmoro? Follow our step-by-step assembly guide to bring your own Helmoro to life!
+
+[Assembly Instructions](hardware/assembly_instructions.md)
+
+Once you've assembled your Helmoro, you'll be ready to explore its incredible capabilities and unleash its full potential. Happy building!
