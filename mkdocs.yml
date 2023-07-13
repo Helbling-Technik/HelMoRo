@@ -6,8 +6,8 @@ site_url: https://example.com/
 nav:
     - Introduction: index.md
     - Hardware: 
-        - Assembly Instructions: hardware/assembly_instructions.md
         - Bill of Materials: hardware/bill_of_materials.md
+        - Assembly Instructions: hardware/assembly_instructions.md
     - Software: article.md
     - Collaboration: article.md
     - About: mkdocs_docu.md
@@ -21,6 +21,8 @@ theme:
     primary: indigo
     accent: light blue
 
+
+
   font:
     text: Sora
   features:
@@ -28,6 +30,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.instant
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -54,6 +57,7 @@ plugins:
         - de
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - table-reader
+
 
 markdown_extensions:
   - markdown_include.include
