@@ -20,13 +20,13 @@ By following these assembly instructions, you'll be well-equipped to successfull
 
 - 1x HEL-04-01000-02 / Frame Mount (For first wheel only)
 - 1x HEL-04-01001-00  / Motor
-- 6x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8 
+- 6x DIN 7984 - M3 x 6 --- 4.5N / Screw M3x6 
 
 
 
 ![Image](assembly_instructions/T1S1.png)
 
-Securely mount the motor into the frame mount using 6x M3x8 screws. The first motor should be attached where the frame mount does not allow for sliding in the motor (back right).
+Securely mount the motor into the frame mount using 6x M3x6 screws. The first motor should be attached where the frame mount does not allow for sliding in the motor (back right).
 
 
 ### Step 2: Wheel Adapter
@@ -132,12 +132,12 @@ Install the fan on the Jetson using 4x M2.5x16 screws and 4x M2.5 nuts.
 
 **Required Parts:**
 
-- 1x HEL-04-03004-00 / Underlay Plate for Jetson
+- 1x HEL-04-03004-00 / Base Plate for Jetson
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 ![Image](assembly_instructions/T2S5.png)
 
-Place the Underlay Plate for Jetson onto the Top Plate. Attach the Jetson on the Underlay Plate for Jetson to the Top Plate using 4x M3x8 screws.
+Place the Base Plate for Jetson onto the Top Plate. Attach the Jetson on the Base Plate for Jetson to the Top Plate using 4x M3x8 screws.
 
 
 ### Step 6: Mount Motor Controller
