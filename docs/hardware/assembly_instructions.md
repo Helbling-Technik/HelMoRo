@@ -26,7 +26,7 @@ By following these assembly instructions, you'll be well-equipped to successfull
 
 ![Image](assembly_instructions/T1S1.png)
 
-Securely mount the motor into the frame mount using 6x M3x8 screws. The first motor should be attached where the frame mount does not allow for sliding in the motor (back right).
+Securely fix the motor into the frame mount using 6x M3x8 screws. The first motor should be attached where the frame mount does not allow for sliding in the motor (back right).
 
 
 ### Step 2: Wheel Adapter
@@ -40,6 +40,7 @@ Securely mount the motor into the frame mount using 6x M3x8 screws. The first mo
 ![Image](assembly_instructions/T1S2.png)
 
 Attach the wheel adapter to the motor assembly using 1x M3x12 screw.
+Tighten the screw where the flange is flattened to stop it from rotating.
 
 
 ### Step 3: Wheel
@@ -59,7 +60,7 @@ Fix the wheel onto the wheel adapter using 4x M3x8 screws.
 
 ![Image](assembly_instructions/T1END.png)
 
-This is how your assembly should look after all the wheels have been attached.
+This is how the assembly should look after all the wheels have been attached.
 
 
 ## Task 2: Chassis
@@ -125,7 +126,7 @@ Secure the top plate to the frame mount using 4x M3x8 screws.
 
 ![Image](assembly_instructions/T2S4.png)
 
-Install the fan on the Jetson using 4x M2.5x16 screws and 4x M2.5 nuts.
+In order to provide some cooling, install the fan on the Jetson using 4x M2.5x16 screws and 4x M2.5 nuts.
 
 
 ### Step 5: Mount Jetson on Top Plate
@@ -137,7 +138,7 @@ Install the fan on the Jetson using 4x M2.5x16 screws and 4x M2.5 nuts.
 
 ![Image](assembly_instructions/T2S5.png)
 
-Place the Underlay Plate for Jetson onto the Top Plate. Attach the Jetson on the Underlay Plate for Jetson to the Top Plate using 4x M3x8 screws.
+Place the Base plate onto the Top Plate. Put the Jetson onto its base plate and attach both to the Top Plate using 4x M3x8 screws.
 
 
 ### Step 6: Mount Motor Controller
@@ -151,7 +152,7 @@ Place the Underlay Plate for Jetson onto the Top Plate. Attach the Jetson on the
 
 ![Image](assembly_instructions/T2S6.png)
 
-Mount the first Motor Controller and the orange Motor Controller Holder using the screws provided in the Motor Controller Kit. Attach the second Motor Controller on the Motor Controller Holder.
+Mount the first Motor Controller and the orange Motor Controller holder using the screws provided in the Motor Controller Kit. Attach the second Motor Controller on the Motor Controller Holder.
 
 
 ### Step 7: Connect Cables
@@ -178,7 +179,7 @@ Connect the USB cables as shown in the image and the [Electronic System Architec
 
 ![Image](assembly_instructions/T2S8.png)
 
-Solder the Battery Cables and Battry Connector to the Battery Protection Module. Use the [Electronic System Architecture](electronic_system_architecture.md).
+Solder the Battery Cables and Battery Connector to the Battery Protection Module. Use the [Electronic System Architecture](electronic_system_architecture.md) as reference.
 
 ### Step 9: DC / DC Converter
 
@@ -237,7 +238,7 @@ Attach the Power Switch with the 8 mm hex-head socket.
 
 Connect all the cables according to the [Electronic System Architecture](electronic_system_architecture.md). The cables to the battery and the one power cable to the LIDAR remain unconnected for now.
 
-**Good job! Now only the body remains to go.**
+**Good job! Now lets continue with assembling the last part - the body.**
 
 ## Task 3: Body
 
@@ -261,7 +262,7 @@ Connect all the cables according to the [Electronic System Architecture](electro
 
 ![Image](assembly_instructions/T3S1.png)
 
-Attach the Power Supply Connector to the Hood.
+Attach the Power Supply Connector to the robots body.
 
 ### Step 2: LIDAR
 
@@ -291,9 +292,9 @@ Mount the LIDAR on the Hood using 4x M3x8 screws.
 
 ![Image](assembly_instructions/T3S3.png)
 
-Mount the Camera on the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the Hood.
+Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the robots body.
 
-### Step 4: Mount Hood on Chassis
+### Step 4: Merge Body and Chassis
 
 
 **Required Parts:**
@@ -303,7 +304,7 @@ Mount the Camera on the Camera Plate with 2x M3x12 screws. Then attach the camer
 
 ![Image](assembly_instructions/T3S4.png)
 
-Attach the Hood on the Chasis with 4x M3x18 screws.
+Attach the body onto the chassis using 4x M3x18 screws.
 
 ### Step 5: Battery Holder
 
