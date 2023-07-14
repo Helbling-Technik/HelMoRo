@@ -6,8 +6,8 @@ site_url: https://example.com/
 nav:
     - Introduction: index.md
     - Hardware: 
-        - HW Introduction: hardware/hardware_introduction.md
         - Bill of Materials: hardware/bill_of_materials.md
+        - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
     - Software: article.md
     - Collaboration: article.md
@@ -18,10 +18,12 @@ theme:
   logo: assets/logos/Helbling_Logo_weiss.png
   favicon: assets/logos/Helbling_Favicon.png
   palette:
-    scheme: slate
-    # To change with https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
+    scheme: default
     primary: indigo
     accent: light blue
+
+
+
   font:
     text: Sora
   features:
@@ -29,6 +31,7 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.instant
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -54,9 +57,13 @@ plugins:
         - en
         - de
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - table-reader
+
 
 markdown_extensions:
   - markdown_include.include
+  - attr_list
+  - tables
   - toc:
       permalink: True
 
