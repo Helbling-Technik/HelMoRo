@@ -19,8 +19,8 @@ theme:
   favicon: assets/logos/Helbling_Favicon.png
   palette:
     scheme: default
-    primary: indigo
-    accent: light blue
+    primary: custom 
+    accent: custom 
 
 
 
@@ -67,3 +67,5 @@ markdown_extensions:
   - toc:
       permalink: True
 
+extra_css:
+  - stylesheets/extra.css

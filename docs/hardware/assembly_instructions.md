@@ -20,7 +20,7 @@ By following these assembly instructions, you'll be well-equipped to successfull
 
 - 1x HEL-04-01000-02 / Frame Mount (For first wheel only)
 - 1x HEL-04-01001-00  / Motor
-- 6x DIN 7984 - M3 x 6 --- 4.5N / Screw M3x6 
+- 6x DIN 7984 - M3 x 8 --- 4.5N / Screw M3x8
 
 
 
