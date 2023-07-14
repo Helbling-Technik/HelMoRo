@@ -1,4 +1,4 @@
-Welcome to Helmoro, a versatile and powerful four-wheeled robot designed by Helbling Technik. With its user-friendly assembly process and cutting-edge components, Helmoro offers an exciting platform for robotics enthusiasts and professionals alike.
+Welcome to Helmoro, a versatile and powerful four-wheeled robot designed by Helbling Technik AG. With its user-friendly assembly process and cutting-edge components, Helmoro offers an exciting platform for robotics enthusiasts and professionals alike.
 
 <iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c99731a7793064db00d?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
@@ -50,7 +50,7 @@ Helmoro offers a wide range of capabilities, making it a versatile and intellige
 
 - **Finger Gesture Commands:** Under development is the ability for Helmoro to interpret finger gestures as commands for autonomous pickup tasks, adding a touch of interactivity to its functionality.
 
-## Get Started Building Your Helmoro
+## Get Started Building Your Own Helmoro
 
 Ready to embark on your robotics journey with Helmoro? Follow our step-by-step assembly guide to bring your own Helmoro to life!
 
