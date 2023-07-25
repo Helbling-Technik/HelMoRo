@@ -2,7 +2,9 @@ Welcome to Helmoro, a versatile and powerful four-wheeled robot designed by [Hel
 
 <iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c99885750fe7d15459b?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-Helmoro is equipped with state-of-the-art components that enable it to perform a wide range of tasks. An overview over all components can be found in the [Bill of Materials](hardware/bill_of_materials.md). Let's take a closer look at its key features:
+Helmoro is equipped with state-of-the-art components that enable it to perform a wide range of tasks. An overview over all components can be found in the [Bill of Materials](hardware/bill_of_materials.md). 
+
+## Key Features
 
 ### Robust Construction
 

@@ -264,8 +264,7 @@ Connect all the cables according to the [Electronic System Architecture](electro
 ![Image](assembly_instructions/T3S1.png)
 
 
-Press the threaded bushes for plastic into the Body and Camera Plate.
-
+Press the threaded bushes into the Body and Camera Plate while heating them with a soldering iron.
 
 
 ### Step 2: Power Supply Connector
