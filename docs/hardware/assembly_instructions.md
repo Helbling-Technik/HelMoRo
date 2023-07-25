@@ -200,8 +200,8 @@ Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch a
 
 **Required Parts:**
 
-- 1x HEL-04-01005-01 / Circuit Board Holder
-- 3x M3x30 Screw
+- 1x HEL-03-03000-00 / Circuit Board Holder
+- 3x ISO 4762 M3 x 30 / Screw M3x30
 
 
 ![Image](assembly_instructions/T2S10_1.png)
@@ -252,19 +252,32 @@ Connect all the cables according to the [Electronic System Architecture](electro
 - 2.5 mm hex-head key
 - 18 mm wrench
 
-### Step 1: Power Supply Connector
+
+### Step 1: Add Threaded Bushes to Body and Camera Plate
 
 **Required Parts:**
-
-- 1x HEL-04-03002-00 / Hood
-- 1x HEL-06-03000-00 / Power Supply Connector
-
+- 1x HEL-04-03002-00 / Body
+- 1x HEL-04-01013-02 / Camera Plate
+- 12x HEL-06-01009-00 / Threaded Bush
 
 ![Image](assembly_instructions/T3S1.png)
 
+
+Press the threaded bushes for plastic into the Body and Camera Plate.
+
+
+
+### Step 2: Power Supply Connector
+
+**Required Parts:**
+- 1x HEL-06-03000-00 / Power Supply Connector
+
+
+![Image](assembly_instructions/T3S2.png)
+
 Attach the Power Supply Connector to the robots body.
 
-### Step 2: LIDAR
+### Step 3: LIDAR
 
 **Required Parts:**
 
@@ -274,27 +287,26 @@ Attach the Power Supply Connector to the robots body.
 
 
 
-![Image](assembly_instructions/T3S2.png)
+![Image](assembly_instructions/T3S3.png)
 
-Mount the LIDAR on the Hood using 4x M3x8 screws.
+Mount the LIDAR on the Body using 4x M3x8 screws.
 
 
-### Step 3: Camera
+### Step 4: Camera
 
 
 **Required Parts:**
 
 - 1x HEL-06-01006-00 / Camera
-- 1x HEL-04-01013-02 / Camera Plate
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 - 2x DIN 7984 - M3 x 12 --- 10.5N / Screw M3x12
 
 
-![Image](assembly_instructions/T3S3.png)
+![Image](assembly_instructions/T3S4.png)
 
-Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the robots body.
+Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the robots body using 4x Threaded Bush and 4x M3x8 screws.
 
-### Step 4: Merge Body and Chassis
+### Step 5: Merge Body and Chassis
 
 
 **Required Parts:**
@@ -302,11 +314,11 @@ Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the cam
 - 4x DIN 7984 - M3 x 18 / Screw M3x18
 
 
-![Image](assembly_instructions/T3S4.png)
+![Image](assembly_instructions/T3S5.png)
 
 Attach the body onto the chassis using 4x M3x18 screws.
 
-### Step 5: Battery Holder
+### Step 6: Battery Holder
 
 
 **Required Parts:**
@@ -315,11 +327,11 @@ Attach the body onto the chassis using 4x M3x18 screws.
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 
-![Image](assembly_instructions/T3S5.png)
+![Image](assembly_instructions/T3S6.png)
 
 Mount the Battery Holder on the bottom of the Frame Mount with 4x M3x8 screws.
 
-### Step 6: Mount Front Part
+### Step 7: Mount Front Part
 
 
 **Required Parts:**
@@ -328,11 +340,11 @@ Mount the Battery Holder on the bottom of the Frame Mount with 4x M3x8 screws.
 - 2x ISO 4762 M3 x 30 / Screw M3x30
 
 
-![Image](assembly_instructions/T3S6.png)
+![Image](assembly_instructions/T3S7.png)
 
-Attach the Front Part to the Hood with 2x M3x30 screws.
+Attach the Front Part to the Body with 2x M3x30 screws.
 
-### Step 7: iPad Holder (optional)
+### Step 8: iPad Holder (optional)
 
 
 **Required Parts:**
@@ -341,11 +353,11 @@ Attach the Front Part to the Hood with 2x M3x30 screws.
 - 4x ISO 4762 M3 x 40 / Screw M3x40
 
 
-![Image](assembly_instructions/T3S7.png)
+![Image](assembly_instructions/T3S8.png)
 
 Optionally, an iPad Holder can be attached to HelMoRo with 4x M3x40 screws.
 
-### Step 8: Wheel Cap (optional)
+### Step 9: Wheel Cap (optional)
 
 
 **Required Parts:**
@@ -353,11 +365,11 @@ Optionally, an iPad Holder can be attached to HelMoRo with 4x M3x40 screws.
 - 4x HEL-04-03000-01 / Wheel Cap
 
 
-![Image](assembly_instructions/T3S8.png)
+![Image](assembly_instructions/T3S9.png)
 
 Optionally, Wheel Caps can be attached to the wheel.
 
-### Step 9: Fork (optional)
+### Step 10: Fork (optional)
 
 
 **Required Parts:**
@@ -366,6 +378,6 @@ Optionally, Wheel Caps can be attached to the wheel.
 - 4x ISO 4762 M3 x 30 / Screw M3x30
 
 
-![Image](assembly_instructions/T3S9.png)
+![Image](assembly_instructions/T3S10.png)
 
 Optionally, the front part can be replaced and a Fork can be added. The Fork can be attached by using 4x M3x30 screws.
