@@ -4,9 +4,7 @@ site_url: https://example.com/
 
   
 nav:
-    - Introduction: 
-        - Overview: index.md
-        - Get Started: get_started.md
+    - Introduction: index.md
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
