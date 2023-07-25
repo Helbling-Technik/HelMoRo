@@ -186,6 +186,7 @@ Solder the Battery Cables and Battery Connector to the Battery Protection Module
 **Required Parts:**
 
 - 1x HEL-06-03004-00 / DC/DC Converter
+- 1x HEL-04-04003-00 / Prototyping Board for DC/DC Converter
 - 1x HEL-06-03001-01 / LED Voltmeter 
 - 1x HEL-06-03002-00 / Power Switch
 

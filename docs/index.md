@@ -54,4 +54,28 @@ Ready to embark on your robotics journey with Helmoro? Follow our step-by-step a
 
 First take a look at the [Bill of Materials](hardware/bill_of_materials.md) and make sure that you have ordered all parts. Then you can proceed with the [Assembly Instructions](hardware/assembly_instructions.md).
 
+The assembly proccess requires the following: 
+
+**Tools**
+
+- 2 mm hex-head key
+- 2.5 mm hex-head key
+- 8 mm hex-head socket
+- 18 mm wrench 
+- Flat-head screwdriver
+- TR9 Torx screwdriver
+- Soldering equipment
+
+
+**Skills**
+
+- Basic mechanical assembly skills
+- Soldering (connecting cables)
+
+
+**Time**
+
+The total estimated time for assembling HelMoRo is approximately 70 minutes.
+
+
 Once you've assembled your Helmoro, you'll be ready to explore its incredible capabilities and unleash its full potential. Happy building!

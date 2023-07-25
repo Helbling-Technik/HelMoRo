@@ -15,6 +15,13 @@ The bill of materials contains all components of Helmoro. Use the model-browser 
 
 {{ read_excel('./Helmoro_BoM_sheet_metals.xlsx', engine='openpyxl', sheet_name="BoM") }}
 
+The Top Plate can be ordered with the Clamping Nuts already pressed into the Top Plate.
+
 ## Fasteners
 
 {{ read_excel('./Helmoro_BoM_fasteners.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+
+## Total
+The estimated cost of all parts of Helmoro is approximately: **1500.- Fr.**
+
