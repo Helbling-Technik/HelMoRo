@@ -8,10 +8,11 @@ nav:
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
+        - CAD: hardware/cad.md
         - Assembly Instructions: hardware/assembly_instructions.md
-    - Software: article.md
-    - Collaboration: article.md
-    - About: mkdocs_docu.md
+    - Software: software.md
+    - Collaboration: collaboration.md
+    - About: about.md
 
 theme:
   name: material
