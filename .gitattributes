@@ -1,0 +1,4 @@
+docs/hardware/cad/step/HEL-06-01003-00.step filter=lfs diff=lfs merge=lfs -text
+docs/hardware/cad/step/HEL-03-01000-02_Main_Assembly filter=lfs diff=lfs merge=lfs -text
+docs/hardware/cad/step/HEL-03-01005-00.step filter=lfs diff=lfs merge=lfs -text
+docs/hardware/cad/step/HEL-03-01000-02_Main_Assembly.step filter=lfs diff=lfs merge=lfs -text
