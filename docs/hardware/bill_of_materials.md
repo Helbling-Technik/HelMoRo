@@ -4,3 +4,4 @@ The bill of materials contains all components of Helmoro. Use the model-browser 
 
 {{ read_excel('./Helmoro_BoM_14-07-2023.xlsx', engine='openpyxl', sheet_name="BoM") }}
 
+test
