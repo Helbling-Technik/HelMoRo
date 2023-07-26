@@ -1,6 +1,6 @@
 # Assembly Instructions
 
-By following these assembly instructions, you'll be well-equipped to successfully assemble HelMoRo. Do you have all the parts listed in the [Bill of Materials](hardware/bill_of_materials.md) ready? Then let's get started!
+By following these assembly instructions, you'll be well-equipped to successfully assemble HelMoRo. Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
 
 ## Task 1: Wheel assembly
 

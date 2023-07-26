@@ -33,19 +33,33 @@ HelMoRo is powered by the [NVIDIA Jetson Nano Developer Kit](https://developer.n
 
 ## Capabilities
 
-- **Video, Map, and Position Streaming:** HelMoRo can stream real-time video, map, and position information to a local computer, allowing for remote monitoring and analysis.
+### Video, Map, and Position Streaming
 
-- **Remote Joystick Control:** With its remote joystick control functionality, HelMoRo can be operated and maneuvered easily from a distance.
+ HelMoRo can stream real-time video, map, and position information to a local computer, allowing for remote monitoring and analysis.
 
-- **Autonomous Navigation:** HelMoRo can autonomously navigate to set goal positions, utilizing its LIDAR sensor, camera, and IMU for obstacle avoidance and path planning.
+### Remote Joystick Control
 
-- **Object Detection and Autonomous Pickup:** The robot can detect objects and perform autonomous pickup tasks.
+With its remote joystick control functionality, HelMoRo can be operated and maneuvered easily from a distance.
 
-- **Remote-Controlled Mapping:** HelMoRo can be remotely controlled to perform mapping tasks, allowing for the creation of detailed maps of its environment.
+### Autonomous Navigation
 
-- **Autonomous Mapping:** Using its LIDAR sensor and mapping algorithms, HelMoRo can autonomously explore and map unknown environments.
+HelMoRo can autonomously navigate to set goal positions, utilizing its LIDAR sensor, camera, and IMU for obstacle avoidance and path planning.
 
-- **Finger Gesture Commands:** Under development is the ability for HelMoRo to interpret finger gestures as commands for autonomous pickup tasks, adding a touch of interactivity to its functionality.
+### Object Detection and Autonomous Pickup 
+
+The robot can detect objects and perform autonomous pickup tasks.
+
+### Remote-Controlled Mapping:
+
+HelMoRo can be remotely controlled to perform mapping tasks, allowing for the creation of detailed maps of its environment.
+
+### Autonomous Mapping
+
+Using its LIDAR sensor and mapping algorithms, HelMoRo can autonomously explore and map unknown environments.
+
+### Finger Gesture Commands
+
+Under development is the ability for HelMoRo to interpret finger gestures as commands for autonomous pickup tasks, adding a touch of interactivity to its functionality.
 
 ## Get Started Building Your Own HelMoRo
 

@@ -8,7 +8,7 @@ nav:
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
-        - CAD: hardware/cad.md
+        - CAD Files: hardware/cad.md
         - Assembly Instructions: hardware/assembly_instructions.md
     - Software: software.md
     - Collaboration: collaboration.md
