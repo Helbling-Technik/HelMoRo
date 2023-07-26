@@ -5,4 +5,4 @@ This overview will provide a clear understanding of the system's components and 
 
 ![Electronical architecture](helmoro_electronical_architecture.drawio.png){: style="height:89%;width:89%"}
 
-[Download Electronical Architecture](Helmoro_Electronical_Architecture.drawio.pdf)
+[Download Electronical Architecture](Helmoro_Electronical_Architecture.pdf)
