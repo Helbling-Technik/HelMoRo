@@ -2,7 +2,7 @@
 
 ## Downloads
 
-In addition to the [Fusion 360 Widget](https://helbling1.autodesk360.com/g/shares/SHd38bfQT1fb47330c99885750fe7d15459b), we provide the model in the following formats:
+In addition to the [Fusion 360 Widget](https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e), we provide the model in the following formats:
 
 - [Solidworks 2021](https://github.com/Helbling-Technik/HelMoRo/tree/5-upload-and-order-cad-files/cad/solidworks) 
 - [STEP](https://github.com/Helbling-Technik/HelMoRo/tree/5-upload-and-order-cad-files/cad/step) 
@@ -13,17 +13,53 @@ Some files extend the file limit of 100 Mb, and therefore, we use [GitHub LFS](h
 
 ## Naming Convention
 
-The part number is of the following form:
 
-**HEL-XX-UUYYY-RR**
+Format: **HEL-XX-UUYYY-RR**
 
-- **HEL** is short for Helbling as it is an internal project.
-- **XX** is the type, 01 is the main assembly, 03 is a sub-assembly, 04 is a generative part or sheet metal, 06 is a purchased electronic part.
-- **UUYYY** is composed by **UU** which is user name (currently user 01, 02, 03 and 04 exist); **YYY** is the part number which can start from 000 then 001 etc..
-- **RR** is revision number starting from 00 then 01 etc..
+- **HEL**: This prefix represents the client.
+    <div style="margin-left: 20px;">
+        <strong>&nbsp;&nbsp;&nbsp;HEL:</strong> Helbling (internal project)<br>
+    </div>
 
 
-Additional comments:
+- **XX**: This section indicates the type of the CAD file.
+    <div style="margin-left: 20px;">
+        <strong>&nbsp;&nbsp;&nbsp;01:</strong> Main assembly<br>
+        <strong>&nbsp;&nbsp;&nbsp;03:</strong> Sub-assembly<br>
+        <strong>&nbsp;&nbsp;&nbsp;04:</strong> Generative part or sheet metal<br>
+        <strong>&nbsp;&nbsp;&nbsp;06:</strong> Purchased electronic part
+    </div>
 
-- The part number YYY restarts from 000 for different part types or different users XX (for example: HEL-04-01000-00 and HEL-06-01000-00 can co-exist) .
-- Fasteners that are usually normed parts such as screws and nuts have no part number.
+
+- **UU**: The creator of the part is specified here. 
+  <div style="margin-left: 20px;">
+        <strong>&nbsp;&nbsp;&nbsp;01:</strong> User 1<br>
+        <strong>&nbsp;&nbsp;&nbsp;02:</strong> User 2<br>
+        <strong>&nbsp;&nbsp;&nbsp;03:</strong> User 3<br>
+        <strong>&nbsp;&nbsp;&nbsp;04:</strong> User 4<br>
+    </div>
+
+- **YYY**: The part number is composed of a three-digit code that starts from **000** and increments by one for each new part.
+
+- **RR**: The revision number is a two-digit code that starts from **00** and increases with each subsequent revision of the CAD file.
+
+### Additional Notes
+
+- The part number (**YYY**) resets to 000 for different part types (**XX**) and for each user (**UU**). For example, both HEL-04-01000-00 and HEL-06-01000-00 may exist as one is a generative part or sheet metal and the other is an electronic part.
+
+- Fasteners, such as screws and nuts, do not have a part number.
+
+### Example
+
+**HEL-06-01000-01**
+
+- **HEL**: Helbling
+- **06**: Purchased electronic part
+- **01**: Creator is user 01.
+- **000**: Part number 0
+- **000**: Revision number 1
+
+
+
+
+

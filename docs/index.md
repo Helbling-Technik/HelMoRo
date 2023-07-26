@@ -1,7 +1,6 @@
 Welcome to HelMoRo, a versatile four-wheeled robot designed by [Helbling](https://www.helbling.ch/en). With its user-friendly assembly process and state-of-the-art components, HelMoRo provides an exciting platform for robotics enthusiasts and professionals alike.
 
-<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c99885750fe7d15459b?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
+<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## Key Features
 
@@ -66,15 +65,14 @@ Under development is the ability for HelMoRo to interpret finger gestures as com
 Ready to embark on your robotics journey with HelMoRo? Order the Materials listed in the [Bill of Materials](hardware/bill_of_materials.md) and follow our step-by-step [Assembly Instructions](hardware/assembly_instructions.md) to bring your own HelMoRo to life!
 
 The assembly proccess requires the following: 
-
-## Material
+### Material
 
 - Electronic components
 - Generative parts (3D printed and laser-cut parts)
 - Sheet Metals
 - Fasteners
 
-**Tools**
+### Tools
 
 - 2 mm hex-head key
 - 2.5 mm hex-head key
@@ -85,15 +83,15 @@ The assembly proccess requires the following:
 - Soldering equipment
 
 
-**Skills**
+### Skills
 
 - Basic mechanical assembly skills
 - Soldering (connecting cables)
 
 
-**Time**
+### Time
 
-- The total estimated assembly time is 70 minutes.
+- The estimated assembly time is 70 minutes.
 
 
 Once you've assembled your HelMoRo, you'll be ready to explore its incredible capabilities and unleash its full potential. Happy building!

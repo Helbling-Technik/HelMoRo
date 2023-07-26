@@ -19,7 +19,7 @@ Do you have all the parts listed in the [Bill of Materials](../bill_of_materials
 **Required Parts:**
 
 - 1x HEL-04-01000-02 / Frame Mount (For first wheel only)
-- 1x HEL-04-01001-00  / Motor
+- 1x HEL-06-01009-00  / Motor
 - 6x DIN 7984 - M3 x 8 --- 4.5N / Screw M3x8
 
 
@@ -83,7 +83,7 @@ This is how the assembly should look after all the wheels have been attached.
 
 - 1x HEL-04-01009-01 / Motor Controller Plate
 - 1x HEL-04-01010-01 / Top Plate
-- 2x HEL-05-03000-00 / Screw M3x4
+- 2x ISO 4762 M3x4 / Screw M3x4
 
 
 
@@ -172,7 +172,7 @@ Connect the USB cables as shown in the image and the [Electronic System Architec
 
 **Required Parts:**
 
-- 1x HEL-03-03000-00 / Battery Protection 
+- 1x HEL-06-04001-00 / Battery Protection 
 - 1x Battery Connector (Deans M/F)
 - 1x Battery Cable (EP Silicone Cable 0.5mm²)
 
@@ -186,7 +186,7 @@ Solder the Battery Cables and Battery Connector to the Battery Protection Module
 **Required Parts:**
 
 - 1x HEL-06-03004-00 / DC/DC Converter
-- 1x HEL-04-04003-00 / Prototyping Board for DC/DC Converter
+- 1x HEL-06-04000-00 / Prototyping Board for DC/DC Converter
 - 1x HEL-06-03001-01 / LED Voltmeter 
 - 1x HEL-06-03002-00 / Power Switch
 
@@ -261,7 +261,7 @@ Connect all the cables according to the [Electronic System Architecture](electro
 **Required Parts:**
 - 1x HEL-04-03002-00 / Body
 - 1x HEL-04-01013-02 / Camera Plate
-- 12x HEL-06-01009-00 / Threaded Bush
+- 12x Thread Insert MULTISERT 003M3 / Threaded Bush
 
 ![Image](assembly_instructions/T3S1.png)
 
