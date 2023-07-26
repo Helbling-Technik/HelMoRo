@@ -18,7 +18,7 @@ HelMoRo utilizes a high-performance [Slamtec RPlidar LIDAR](https://www.slamtec.
 
 ### RGB-D Camera
 
-The [Orbbec Astra Pro RGB-D Camera](https://orbbec3d.com/product-astra-pro/) integrated into HelMoRo provides detailed depth perception and color information. This camera enhances the robot's visual perception, enabling advanced computer vision tasks.
+The [Orbbec Astra Pro RGB-D Camera](https://shop.orbbec3d.com/Astra-Pro-Plus) integrated into HelMoRo provides detailed depth perception and color information. This camera enhances the robot's visual perception, enabling advanced computer vision tasks.
 
 ### IMU Sensor
 

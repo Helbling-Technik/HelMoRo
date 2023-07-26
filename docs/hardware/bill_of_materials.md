@@ -1,7 +1,8 @@
-The bill of materials contains all components of HelMoRo. Use the model-browser in the widget to search for a specific part number ([naming convention](../cad#naming-convention)). *Tip: Copy the part number into the model-browser search bar.* 
+The bill of materials contains all components of HelMoRo. 
 
 
 <iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+Tip: Use the model-browser in the widget to search for a specific part name ([naming convention](../cad#naming-convention)).
 
 ## Electronics
 
@@ -15,13 +16,13 @@ The bill of materials contains all components of HelMoRo. Use the model-browser 
 
 {{ read_excel('./Helmoro_BoM_sheet_metals.xlsx', engine='openpyxl', sheet_name="BoM") }}
 
-The Top Plate can be ordered with the Clamping Nuts already pressed into the Top Plate.
+The Top Plate can be ordered with the Clamping Nuts already pressed in.
 
 ## Fasteners
 
 {{ read_excel('./Helmoro_BoM_fasteners.xlsx', engine='openpyxl', sheet_name="BoM") }}
 
 
-## Total
+## Total Cost
 The estimated cost of all parts of Helmoro is approximately: **1500.- Fr.**
 

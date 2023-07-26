@@ -32,13 +32,7 @@ The file names are in the following format:
     </div>
 
 
-- **UU**: The creator of the part is specified here. 
-    <div style="margin-left: 20px;">
-        <strong>&nbsp;&nbsp;&nbsp;01:</strong> User 1<br>
-        <strong>&nbsp;&nbsp;&nbsp;02:</strong> User 2<br>
-        <strong>&nbsp;&nbsp;&nbsp;03:</strong> User 3<br>
-        <strong>&nbsp;&nbsp;&nbsp;04:</strong> User 4<br>
-    </div>
+- **UU**: The creator of the part is specified here. User **01** up to **04** exist.
 
 - **YYY**: The number of the part is composed of a three-digit code that starts from **000** and increments by one for each new part.
 
@@ -65,7 +59,7 @@ The file names are in the following format:
 
 - **HEL**: Helbling
 - **06**: Purchased electronic part
-- **01**: Creator is user 01.
+- **01**: User 1
 - **000**: Part number 0
 - **000**: Revision number 1
 - **sldprt**: SolidWorks part file
