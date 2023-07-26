@@ -14,7 +14,8 @@ Some files extend the file limit of 100 Mb, and therefore, we use [GitHub LFS](h
 ## Naming Convention
 
 
-Format: **HEL-XX-UUYYY-RR**
+The file names are in the following format:
+**HEL-XX-UUYYY-RR.xyz**
 
 - **HEL**: This prefix represents the client.
     <div style="margin-left: 20px;">
@@ -32,16 +33,25 @@ Format: **HEL-XX-UUYYY-RR**
 
 
 - **UU**: The creator of the part is specified here. 
-  <div style="margin-left: 20px;">
+    <div style="margin-left: 20px;">
         <strong>&nbsp;&nbsp;&nbsp;01:</strong> User 1<br>
         <strong>&nbsp;&nbsp;&nbsp;02:</strong> User 2<br>
         <strong>&nbsp;&nbsp;&nbsp;03:</strong> User 3<br>
         <strong>&nbsp;&nbsp;&nbsp;04:</strong> User 4<br>
     </div>
 
-- **YYY**: The part number is composed of a three-digit code that starts from **000** and increments by one for each new part.
+- **YYY**: The number of the part is composed of a three-digit code that starts from **000** and increments by one for each new part.
 
 - **RR**: The revision number is a two-digit code that starts from **00** and increases with each subsequent revision of the CAD file.
+
+- **xyz**: File type.
+    <div style="margin-left: 20px;">
+        <strong>&nbsp;&nbsp;&nbsp;sldsasm:</strong> SolidWorks assembly file<br>
+        <strong>&nbsp;&nbsp;&nbsp;sldprt:</strong> SolidWorks part file<br>
+        <strong>&nbsp;&nbsp;&nbsp;step:</strong> STEP file<br>
+        <strong>&nbsp;&nbsp;&nbsp;stl:</strong> STL file<br>
+    </div>
+ 
 
 ### Additional Notes
 
@@ -51,13 +61,14 @@ Format: **HEL-XX-UUYYY-RR**
 
 ### Example
 
-**HEL-06-01000-01**
+**HEL-06-01000-01.sldprt**
 
 - **HEL**: Helbling
 - **06**: Purchased electronic part
 - **01**: Creator is user 01.
 - **000**: Part number 0
 - **000**: Revision number 1
+- **sldprt**: SolidWorks part file
 
 
 
