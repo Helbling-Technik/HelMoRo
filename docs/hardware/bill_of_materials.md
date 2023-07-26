@@ -1,4 +1,4 @@
-The bill of materials contains all components of HelMoRo. Use the model-browser in the widget to search for a specific part by part number. *Tip: Copy the document number into the model-browser search bar.* 
+The bill of materials contains all components of HelMoRo. Use the model-browser in the widget to search for a specific part number ([naming convention](../cad#naming-convention)). *Tip: Copy the part number into the model-browser search bar.* 
 
 
 <iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c99885750fe7d15459b?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>

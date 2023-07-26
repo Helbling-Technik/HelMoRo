@@ -1,6 +1,6 @@
 # Assembly Instructions
 
-By following these assembly instructions, you'll be well-equipped to successfully assemble HelMoRo. Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
+Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
 
 ## Task 1: Wheel assembly
 
@@ -201,17 +201,19 @@ Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch a
 
 **Required Parts:**
 
-- 1x HEL-03-03000-00 / Circuit Board Holder
+- HEL-04-04000-00 / Circuit Board Holder Base
+- HEL-04-04001-00 / Circuit Board Holder Middle
+- HEL-04-04002-00 / Circuit Board Holder Top
 - 3x ISO 4762 M3 x 30 / Screw M3x30
 
 
 ![Image](assembly_instructions/T2S10_1.png)
 
-Place the Battery Protection on the lowest part of the Circuit Board Holder. Make sure that the cables are oriented correctly so that they leave the box as shown in the image. Place the second part of the Circuit Board Holder on the Battery Protection Module.
+Place the Battery Protection on the Circuit Board Holder Base. Make sure that the cables are oriented correctly so that they leave the box as shown in the image. Place the Circuit Board Holder Middle on the Battery Protection Module.
 
 ![Image](assembly_instructions/T2S10_2.png)
 
-Place the DC/DC Converter on top of the second part of the Circuit Board Holder. Assemble the whole Circuit Board Holder using 3x M3x30 screws.
+Place the Prototyping Board with the DC/DC Converter on top of the Circuit Board Holder Middle . Assemble the whole Circuit Board Holder by using the Circuit Board Holder Top and 3x M3x30 screws.
 
 
 ### Step 11: Voltmeter

@@ -67,7 +67,7 @@ Ready to embark on your robotics journey with HelMoRo? Order the Materials liste
 
 The assembly proccess requires the following: 
 
-**Material**
+## Material
 
 - Electronic components
 - Generative parts (3D printed and laser-cut parts)
