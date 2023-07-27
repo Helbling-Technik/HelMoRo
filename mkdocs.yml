@@ -40,7 +40,21 @@ theme:
 
 
 copyright: >
+  Software is shared under the BSD-3 license. <br> 
+  CAD and mechanics design files are shared under the Creative Commons CC-BY-4.0. <br>
+  <br>
   Copyright &copy; 2023 Helbling Technik Zürich 
+
+extra:
+  generator: false
+
+  social:
+  - icon: fontawesome/solid/house
+    link: https://helbling.ch/en
+  - icon: fontawesome/brands/github
+    link: https://github.com/Helbling-Technik
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/company/helbling/
 
 plugins:
   #- privacy:
