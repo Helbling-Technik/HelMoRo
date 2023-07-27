@@ -1,6 +1,30 @@
-The bill of materials contains all components of Helmoro. Use the model-browser in the widget to search for a specific part by part number. Tip: Copy the Document-Nr. into the model-browser search bar.
+# Bill of Materials
 
-<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c99731a7793064db00d?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+All components of HelMoRo are listed below the widget. The Bill of Materials should be used to order all the parts before starting the assembly process.
 
-{{ read_excel('./ImportTest.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+Tip: Use the model-browser in the widget to search for a specific part name ([naming convention](../cad#naming-convention)).
+
+## Electronics
+
+{{ read_excel('./Helmoro_BoM_electronics.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+## Generative Parts
+
+{{ read_excel('./Helmoro_BoM_generative_parts.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+## Sheet Metals
+
+{{ read_excel('./Helmoro_BoM_sheet_metals.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+The Top Plate can be ordered with the Clamping Nuts already pressed in.
+
+## Fasteners
+
+{{ read_excel('./Helmoro_BoM_fasteners.xlsx', engine='openpyxl', sheet_name="BoM") }}
+
+
+## Total Cost
+The estimated cost of all parts of Helmoro is approximately: **1500.- Fr.**
 

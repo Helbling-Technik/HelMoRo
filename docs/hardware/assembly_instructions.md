@@ -1,6 +1,6 @@
 # Assembly Instructions
 
-By following these assembly instructions, you'll be well-equipped to successfully assemble HelMoRo. Let's get started!
+Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
 
 ## Task 1: Wheel assembly
 
@@ -19,8 +19,8 @@ By following these assembly instructions, you'll be well-equipped to successfull
 **Required Parts:**
 
 - 1x HEL-04-01000-02 / Frame Mount (For first wheel only)
-- 1x HEL-04-01001-00  / Motor
-- 6x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8 
+- 1x HEL-06-01009-00  / Motor
+- 6x DIN 7984 - M3 x 8 --- 4.5N / Screw M3x8
 
 
 
@@ -83,7 +83,7 @@ This is how the assembly should look after all the wheels have been attached.
 
 - 1x HEL-04-01009-01 / Motor Controller Plate
 - 1x HEL-04-01010-01 / Top Plate
-- 2x HEL-05-03000-00 / Screw M3x4
+- 2x ISO 4762 M3x4 / Screw M3x4
 
 
 
@@ -133,7 +133,7 @@ In order to provide some cooling, install the fan on the Jetson using 4x M2.5x16
 
 **Required Parts:**
 
-- 1x HEL-04-03004-00 / Underlay Plate for Jetson
+- 1x HEL-04-03004-00 / Base Plate for Jetson
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 ![Image](assembly_instructions/T2S5.png)
@@ -172,7 +172,7 @@ Connect the USB cables as shown in the image and the [Electronic System Architec
 
 **Required Parts:**
 
-- 1x HEL-03-03000-00 / Battery Protection 
+- 1x HEL-06-04001-00 / Battery Protection 
 - 1x Battery Connector (Deans M/F)
 - 1x Battery Cable (EP Silicone Cable 0.5mm²)
 
@@ -186,6 +186,7 @@ Solder the Battery Cables and Battery Connector to the Battery Protection Module
 **Required Parts:**
 
 - 1x HEL-06-03004-00 / DC/DC Converter
+- 1x HEL-06-04000-00 / Prototyping Board for DC/DC Converter
 - 1x HEL-06-03001-01 / LED Voltmeter 
 - 1x HEL-06-03002-00 / Power Switch
 
@@ -200,17 +201,19 @@ Solder the connections of the DC/DC converter, LED Voltmeter, and Power Switch a
 
 **Required Parts:**
 
-- 1x HEL-04-01005-01 / Circuit Board Holder
-- 3x M3x30 Screw
+- HEL-04-04000-00 / Circuit Board Holder Base
+- HEL-04-04001-00 / Circuit Board Holder Middle
+- HEL-04-04002-00 / Circuit Board Holder Top
+- 3x ISO 4762 M3 x 30 / Screw M3x30
 
 
 ![Image](assembly_instructions/T2S10_1.png)
 
-Place the Battery Protection on the lowest part of the Circuit Board Holder. Make sure that the cables are oriented correctly so that they leave the box as shown in the image. Place the second part of the Circuit Board Holder on the Battery Protection Module.
+Place the Battery Protection on the Circuit Board Holder Base. Make sure that the cables are oriented correctly so that they leave the box as shown in the image. Place the Circuit Board Holder Middle on the Battery Protection Module.
 
 ![Image](assembly_instructions/T2S10_2.png)
 
-Place the DC/DC Converter on top of the second part of the Circuit Board Holder. Assemble the whole Circuit Board Holder using 3x M3x30 screws.
+Place the Prototyping Board with the DC/DC Converter on top of the Circuit Board Holder Middle . Assemble the whole Circuit Board Holder by using the Circuit Board Holder Top and 3x M3x30 screws.
 
 
 ### Step 11: Voltmeter
@@ -252,19 +255,33 @@ Connect all the cables according to the [Electronic System Architecture](electro
 - 2.5 mm hex-head key
 - 18 mm wrench
 
-### Step 1: Power Supply Connector
+
+### Step 1: Add Threaded Bushes to Body and Camera Plate
 
 **Required Parts:**
 
-- 1x HEL-04-03002-00 / Hood
-- 1x HEL-06-03000-00 / Power Supply Connector
-
+- 1x HEL-04-03002-00 / Body
+- 1x HEL-04-01013-02 / Camera Plate
+- 12x Thread Insert MULTISERT 003M3 / Threaded Bush
 
 ![Image](assembly_instructions/T3S1.png)
 
+
+Press the threaded bushes into the Body and Camera Plate while heating them with a soldering iron.
+
+
+### Step 2: Power Supply Connector
+
+**Required Parts:**
+
+- 1x HEL-06-03000-00 / Power Supply Connector
+
+
+![Image](assembly_instructions/T3S2.png)
+
 Attach the Power Supply Connector to the robots body.
 
-### Step 2: LIDAR
+### Step 3: LIDAR
 
 **Required Parts:**
 
@@ -274,27 +291,26 @@ Attach the Power Supply Connector to the robots body.
 
 
 
-![Image](assembly_instructions/T3S2.png)
+![Image](assembly_instructions/T3S3.png)
 
-Mount the LIDAR on the Hood using 4x M3x8 screws.
+Mount the LIDAR on the Body using 4x M3x8 screws.
 
 
-### Step 3: Camera
+### Step 4: Camera
 
 
 **Required Parts:**
 
 - 1x HEL-06-01006-00 / Camera
-- 1x HEL-04-01013-02 / Camera Plate
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 - 2x DIN 7984 - M3 x 12 --- 10.5N / Screw M3x12
 
 
-![Image](assembly_instructions/T3S3.png)
+![Image](assembly_instructions/T3S4.png)
 
-Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the robots body.
+Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the camera assembly to the robots body using 4x Threaded Bush and 4x M3x8 screws.
 
-### Step 4: Merge Body and Chassis
+### Step 5: Merge Body and Chassis
 
 
 **Required Parts:**
@@ -302,11 +318,11 @@ Mount the Camera onto the Camera Plate with 2x M3x12 screws. Then attach the cam
 - 4x DIN 7984 - M3 x 18 / Screw M3x18
 
 
-![Image](assembly_instructions/T3S4.png)
+![Image](assembly_instructions/T3S5.png)
 
 Attach the body onto the chassis using 4x M3x18 screws.
 
-### Step 5: Battery Holder
+### Step 6: Battery Holder
 
 
 **Required Parts:**
@@ -315,11 +331,11 @@ Attach the body onto the chassis using 4x M3x18 screws.
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 
-![Image](assembly_instructions/T3S5.png)
+![Image](assembly_instructions/T3S6.png)
 
 Mount the Battery Holder on the bottom of the Frame Mount with 4x M3x8 screws.
 
-### Step 6: Mount Front Part
+### Step 7: Mount Front Part
 
 
 **Required Parts:**
@@ -328,11 +344,11 @@ Mount the Battery Holder on the bottom of the Frame Mount with 4x M3x8 screws.
 - 2x ISO 4762 M3 x 30 / Screw M3x30
 
 
-![Image](assembly_instructions/T3S6.png)
+![Image](assembly_instructions/T3S7.png)
 
-Attach the Front Part to the Hood with 2x M3x30 screws.
+Attach the Front Part to the Body with 2x M3x30 screws.
 
-### Step 7: iPad Holder (optional)
+### Step 8: iPad Holder (optional)
 
 
 **Required Parts:**
@@ -341,11 +357,11 @@ Attach the Front Part to the Hood with 2x M3x30 screws.
 - 4x ISO 4762 M3 x 40 / Screw M3x40
 
 
-![Image](assembly_instructions/T3S7.png)
+![Image](assembly_instructions/T3S8.png)
 
 Optionally, an iPad Holder can be attached to HelMoRo with 4x M3x40 screws.
 
-### Step 8: Wheel Cap (optional)
+### Step 9: Wheel Cap (optional)
 
 
 **Required Parts:**
@@ -353,11 +369,11 @@ Optionally, an iPad Holder can be attached to HelMoRo with 4x M3x40 screws.
 - 4x HEL-04-03000-01 / Wheel Cap
 
 
-![Image](assembly_instructions/T3S8.png)
+![Image](assembly_instructions/T3S9.png)
 
 Optionally, Wheel Caps can be attached to the wheel.
 
-### Step 9: Fork (optional)
+### Step 10: Fork (optional)
 
 
 **Required Parts:**
@@ -366,6 +382,6 @@ Optionally, Wheel Caps can be attached to the wheel.
 - 4x ISO 4762 M3 x 30 / Screw M3x30
 
 
-![Image](assembly_instructions/T3S9.png)
+![Image](assembly_instructions/T3S10.png)
 
 Optionally, the front part can be replaced and a Fork can be added. The Fork can be attached by using 4x M3x30 screws.

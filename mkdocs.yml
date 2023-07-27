@@ -7,11 +7,12 @@ nav:
     - Introduction: index.md
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
+        - CAD: hardware/cad.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
-    - Software: article.md
-    - Collaboration: article.md
-    - About: mkdocs_docu.md
+    - Software: software.md
+    - Collaboration: collaboration.md
+    - About: about.md
 
 theme:
   name: material
@@ -19,8 +20,8 @@ theme:
   favicon: assets/logos/Helbling_Favicon.png
   palette:
     scheme: default
-    primary: indigo
-    accent: light blue
+    primary: custom 
+    accent: custom 
 
 
 
@@ -36,18 +37,10 @@ theme:
     - search.suggest
     - search.highlight
 
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+
 
 copyright: >
-  Copyright &copy; 2016 - 2023 Helbling Technik Zürich –
-  <a href="#__consent">Change cookie settings</a>
+  Copyright &copy; 2023 Helbling Technik Zürich 
 
 plugins:
   #- privacy:
@@ -67,3 +60,5 @@ markdown_extensions:
   - toc:
       permalink: True
 
+extra_css:
+  - stylesheets/extra.css
