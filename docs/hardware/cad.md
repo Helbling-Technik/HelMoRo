@@ -4,9 +4,9 @@
 
 In addition to the [Fusion 360 Widget](https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e), we provide the model in the following formats:
 
-- [Solidworks 2021](https://github.com/Helbling-Technik/HelMoRo/tree/5-upload-and-order-cad-files/cad/solidworks) 
-- [STEP](https://github.com/Helbling-Technik/HelMoRo/tree/5-upload-and-order-cad-files/cad/step) 
-- [STL](https://github.com/Helbling-Technik/HelMoRo/tree/5-upload-and-order-cad-files/cad/stl) 
+- [Solidworks 2021](https://github.com/Helbling-Technik/HelMoRo/tree/master/cad/solidworks) 
+- [STEP](https://github.com/Helbling-Technik/HelMoRo/tree/master/cad/step) 
+- [STL](https://github.com/Helbling-Technik/HelMoRo/tree/master/cad/stl) 
 
 Some files extend the file limit of 100 Mb, and therefore, we use [GitHub LFS](https://git-lfs.com/) (Large File Storage) to manage these large files effectively. Instructions how to use GitHub LFS can be found under [Collaboration](../../collaboration#accessing-the-repository).
 
