@@ -259,6 +259,7 @@ Connect all the cables according to the [Electronic System Architecture](electro
 ### Step 1: Add Threaded Bushes to Body and Camera Plate
 
 **Required Parts:**
+
 - 1x HEL-04-03002-00 / Body
 - 1x HEL-04-01013-02 / Camera Plate
 - 12x Thread Insert MULTISERT 003M3 / Threaded Bush
@@ -272,6 +273,7 @@ Press the threaded bushes into the Body and Camera Plate while heating them with
 ### Step 2: Power Supply Connector
 
 **Required Parts:**
+
 - 1x HEL-06-03000-00 / Power Supply Connector
 
 
