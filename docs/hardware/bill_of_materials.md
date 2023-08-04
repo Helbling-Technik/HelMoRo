@@ -3,7 +3,8 @@
 All components of HelMoRo are listed below the widget. The Bill of Materials should be used to order all the parts before starting the assembly process.
 
 
-<iframe src="https://helbling1.autodesk360.com/shares/public/SHd38bfQT1fb47330c991becce5c90f0ce5e?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://helbling2.autodesk360.com/shares/public/SHd38bfQT1fb47330c99f726a386eb5b24d0?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 Tip: Use the model-browser in the widget to search for a specific part name ([naming convention](../cad#naming-convention)).
 
 ## Electronics
