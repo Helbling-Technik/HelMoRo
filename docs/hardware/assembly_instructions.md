@@ -164,7 +164,7 @@ Mount the first Motor Controller and the orange Motor Controller holder using th
 
 ![Image](assembly_instructions/T2S7.png)
 
-Connect the USB cables as shown in the image and the [Electronic System Architecture](electronic_system_architecture.md).
+Connect the USB cables as shown in the image and the [Electronic System Architecture](electronic_system_architecture.md). Make sure that the encoder is connected to the right motor.
 
 
 
