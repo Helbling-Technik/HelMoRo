@@ -3,10 +3,10 @@ name: Build and Deploy Website
 on:
   pull_request:
     branches:
-      - master
+      - 28-refactor-mainym
   push:
     branches:
-      - master
+      - 28-refactor-mainym
 
 permissions:
   contents: write
@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
@@ -29,10 +29,12 @@ jobs:
           echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
       - name: Restore and use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .cache
           key: mkdocs-material-${{ env.cache_id }}
+          restore-keys: |
+            mkdocs-material-
 
       - name: Install dependencies
         run: |
@@ -47,10 +49,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
@@ -59,10 +61,13 @@ jobs:
           echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
       - name: Restore and use cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .cache
           key: mkdocs-material-${{ env.cache_id }}
+          restore-keys: |
+            mkdocs-material-
+
 
       - name: Install dependencies
         run: |
