@@ -3,10 +3,11 @@ name: Build and Deploy Website
 on:
   pull_request:
     branches:
-      - 28-refactor-mainyml
+      - master
+
   push:
     branches:
-      - 28-refactor-mainyml
+      - master
 
 permissions:
   contents: write
@@ -14,6 +15,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
 
     steps:
       - name: Checkout code
@@ -33,8 +35,6 @@ jobs:
         with:
           path: .cache
           key: mkdocs-material-${{ env.cache_id }}
-          restore-keys: |
-            mkdocs-material-
 
       - name: Install dependencies
         run: |
@@ -45,7 +45,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged
+    if: github.event_name == 'push'
 
     steps:
       - name: Checkout code
@@ -65,9 +65,6 @@ jobs:
         with:
           path: .cache
           key: mkdocs-material-${{ env.cache_id }}
-          restore-keys: |
-            mkdocs-material-
-
 
       - name: Install dependencies
         run: |
@@ -75,6 +72,3 @@ jobs:
 
       - name: Deploy documentation
         run: mkdocs gh-deploy --force
-
-
-
