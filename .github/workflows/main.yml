@@ -3,10 +3,10 @@ name: Build and Deploy Website
 on:
   pull_request:
     branches:
-      - 28-refactor-mainym
+      - 28-refactor-mainyml
   push:
     branches:
-      - 28-refactor-mainym
+      - 28-refactor-mainyml
 
 permissions:
   contents: write
