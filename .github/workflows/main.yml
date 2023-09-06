@@ -1,31 +1,74 @@
-name: build and deploy website
-# Controls when the workflow will run
+name: Build and Deploy Website
+
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  pull_request:
+    branches:
+      - master
+
   push:
-    branches: [ "master" ]
+    branches:
+      - master
+
 permissions:
   contents: write
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  deploy:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+
+      - name: Cache environment
+        run: |
+          echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Restore and use cache
+        uses: actions/cache@v3
         with:
-          key: mkdocs-material-${{ env.cache_id }}
           path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material markdown-include mkdocs-table-reader-plugin openpyxl
-      - run: mkdocs gh-deploy --force
+          key: mkdocs-material-${{ env.cache_id }}
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material markdown-include mkdocs-table-reader-plugin openpyxl
+
+      - name: Build documentation
+        run: mkdocs build
+
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Cache environment
+        run: |
+          echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Restore and use cache
+        uses: actions/cache@v3
+        with:
+          path: .cache
+          key: mkdocs-material-${{ env.cache_id }}
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material markdown-include mkdocs-table-reader-plugin openpyxl
+
+      - name: Deploy documentation
+        run: mkdocs gh-deploy --force
