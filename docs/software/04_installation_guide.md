@@ -142,7 +142,7 @@ Instead of previously:
 scan_msg.header.stamp = start;
 ```
 
-Clone the [helmoro_rplidar](https://github.com/HAJ-Helbling/Helmoro_RPLidar) repository into your workspace. This will create a package, still called rplidar_ros
+Clone the [helmoro_rplidar](https://github.com/Helbling-Technik/Helmoro_RPLidar.git) repository into your workspace. This will create a package, still called rplidar_ros
 
 Before you can run the rplidar, check the authority of its serial port.
 
