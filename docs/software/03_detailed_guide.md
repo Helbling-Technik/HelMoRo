@@ -160,7 +160,7 @@ You then also need to start the joystick node (on your computer) with:
  roslaunch helmoro_joymanager joymanager.launch
 ```
 
-Make sure to connect the joystick to your VM
+Make sure to connect the joystick to your computer
 
 #### Advanced usage or tuning
 

@@ -15,13 +15,21 @@
 
     .tx-container {
         padding-top: .0rem;
-        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-accent-fg-color) 99%, #fff 99%);
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-accent-fg-color) 100%, #fff 100%);
     }
 
     .tx-hero {
         margin: 32px 2.8rem;
         color: var(--md-primary-bg-color);
         justify-content: center;
+    }
+
+    .tx-video {
+        margin: 32px 2.8rem;
+        color: var(--md-primary-bg-color);
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
 
     .tx-hero h1 {
@@ -41,7 +49,7 @@
         order: 1;
         margin: 0 auto;
         /* Centers the image */
-        padding-right: 2.5rem;
+        padding-right: 1rem;
     }
 
     .tx-hero .md-button {
@@ -117,9 +125,24 @@
         }
 
         .tx-hero {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 0;
+            margin-right: 0;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .tx-video {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 0;
+            margin-right: 0;
+            color: var(--md-primary-bg-color);
+            justify-content: center;
+            display: flex;
+            align-items: center;
         }
 
         .tx-hero__content {
@@ -240,7 +263,7 @@
                 <p>Welcome to the official documentation of <b>Helmoro</b>, the <b>Hel</b>bling <b>mo</b>bile
                     <b>ro</b>bot. <br> Helmoro is an open-source robotic platform designed by Helbling Technik in
                     Zurich, Switzerland.<br><br>
-                    It is equipped with LiDAR sensors and depth cameras, and thus is able to navigate autonomously.
+                    It is equipped with LiDAR sensors and depth cameras for autonomous navigation.
                     Additionally, we implemented a ROS node that allows the robot to be controlled with a game
                     controller.
                 </p>
@@ -271,22 +294,17 @@
     </div>
 </section>
 
-<div class="tx-hero">
-
-    <iframe width="80%" height="auto" src="https://www.youtube.com/embed/QdNnvhEyrZk" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
-
-</div>
+<section>
+    <div class="md-grid md-typeset">
+        <div class="tx-video">
+            <iframe width=100% height="auto" src="https://www.youtube.com/embed/QdNnvhEyrZk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
+        </div>
+    </div>
+</section>
 
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{{ super() }}{% endblock %}
-
-<div class="md-footer-meta__inner md-grid">
-    <!-- Existing copyright and social includes -->
-    <div>
-        <a href="/privacy-policy/">Privacy Policy</a> | <a href="/">Home</a>
-    </div>
-</div>
