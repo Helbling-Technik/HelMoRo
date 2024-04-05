@@ -1,10 +1,14 @@
 
 site_name: HelMoRo
-site_url: https://example.com/
+site_url: https://helbling-technik.github.io/HelMoRo/
+
+software_repo_url: https://github.com/Helbling-Technik/HelMoRo-software
+hardware_repo_url: https://github.com/Helbling-Technik/HelMoRo
 
   
 nav:
-    - Introduction: index.md
+    - Home: index.md
+    - Description: description.md
     - Hardware: 
         - Bill of Materials: hardware/bill_of_materials.md
         - CAD: hardware/cad.md
@@ -18,17 +22,39 @@ nav:
         - Software Architecture: software/05_software_architecture.md 
         - Algorithms: software/06_algorithms.md
     - Collaboration: collaboration.md
-    - About: about.md
+    - About: about/about.md
 
 theme:
   name: material
+  custom_dir: docs/.overrides
   logo: assets/logos/Helbling_Logo_weiss.png
   favicon: assets/logos/Helbling_Favicon.png
   palette:
-    scheme: default
+  # Palette toggle for automatic mode
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+    primary: custom 
+    accent: custom   
+
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default 
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+    primary: custom 
+    accent: custom   
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
     primary: custom 
     accent: custom 
-
 
 
   font:
@@ -49,9 +75,12 @@ copyright: >
   Software is shared under the BSD-3 license. <br> 
   CAD and mechanics design files are shared under the Creative Commons CC-BY-4.0. <br>
   <br>
-  Copyright &copy; 2023 Helbling Technik Zürich 
+  Copyright &copy; 2024 Helbling Technik Zürich 
 
 extra:
+  analytics:
+    provider: google
+    property: G-TQFVDBEGQT
   generator: false
 
   social:
@@ -78,6 +107,7 @@ markdown_extensions:
   - attr_list
   - tables
   - toc:
+      toc_depth: 3
       permalink: True
 
 extra_css:

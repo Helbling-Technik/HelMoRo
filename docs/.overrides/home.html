@@ -1,0 +1,310 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+
+{% extends "base.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-main {
+        flex-grow: 0
+    }
+
+    .md-main__inner {
+        display: flex;
+        height: 100%;
+    }
+
+    .tx-container {
+        padding-top: .0rem;
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--md-accent-fg-color) 100%, #fff 100%);
+    }
+
+    .tx-hero {
+        margin: 32px 2.8rem;
+        color: var(--md-primary-bg-color);
+        justify-content: center;
+    }
+
+    .tx-video {
+        margin: 32px 2.8rem;
+        color: var(--md-primary-bg-color);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .tx-hero h1 {
+        margin-bottom: 1rem;
+        color: currentColor;
+        font-weight: 700
+    }
+
+    .tx-hero__content {
+        padding-bottom: 1rem;
+        margin: 0 auto;
+    }
+
+    .tx-hero__image {
+        width: 22rem;
+        height: 22rem;
+        order: 1;
+        margin: 0 auto;
+        /* Centers the image */
+        padding-right: 1rem;
+    }
+
+    .tx-hero .md-button {
+        margin-top: .5rem;
+        margin-right: .5rem;
+        color: var(--md-primary-bg-color)
+    }
+
+    .tx-hero .md-button--primary {
+        background-color: var(--md-primary-bg-color);
+        color: hsla(280deg, 37%, 48%, 1);
+        border-color: var(--md-primary-bg-color)
+    }
+
+    .tx-hero .md-button:focus,
+    .tx-hero .md-button:hover {
+        background-color: var(--md-accent-fg-color);
+        color: var(--md-default-bg-color);
+        border-color: var(--md-accent-fg-color)
+    }
+
+    .feature-item h2 svg {
+        height: 30px;
+        float: left;
+        margin-right: 10px;
+        transform: translateY(10%);
+    }
+
+    .top-hr {
+        margin-top: 42px;
+    }
+
+    .feature-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        box-sizing: border-box;
+        padding: 0 15px;
+        word-break: break-word
+    }
+
+    .feature-item h2 {
+        color: #333;
+        font-weight: 300;
+        font-size: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+    }
+
+    .feature-item p {
+        font-size: 16px;
+        line-height: 1.8em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        color: #111;
+        margin: 0 0 10px;
+        display: block;
+    }
+
+    @media screen and (max-width:30em) {
+        .tx-hero h1 {
+            font-size: 1.4rem
+        }
+    }
+
+    @media screen and (min-width:60em) {
+        .md-sidebar--secondary {
+            display: none
+        }
+
+        .tx-hero {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 0;
+            margin-right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tx-video {
+            margin-top: 32px;
+            margin-bottom: 32px;
+            margin-left: 0;
+            margin-right: 0;
+            color: var(--md-primary-bg-color);
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .tx-hero__content {
+            max-width: 32rem;
+            /* used to be 22rem */
+            margin-top: 3.5rem;
+            margin-bottom: 3.5rem;
+            margin-left: 1.0rem;
+            margin-right: 4.0rem;
+            align-items: center;
+        }
+
+        @media screen and (min-width:76.25em) {
+            .md-sidebar--primary {
+                display: none
+            }
+
+            .top-hr {
+                width: 100%;
+                display: flex;
+                max-width: 61rem;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 0 .2rem;
+            }
+
+            .bottom-hr {
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                max-width: 61rem;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 0 .2rem;
+            }
+
+            .feature-item {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .feature-item:hover {
+                background-color: #526cfe47;
+                border-radius: 3px;
+            }
+        }
+
+        .hr {
+            border-bottom: 1px solid #eee;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .text-center {
+            text-align: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 15px;
+            font-family: 'Lato', sans-serif;
+            font-size: 23px;
+            font-weight: 300;
+            padding-bottom: 10px;
+        }
+
+        .logos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: 0 auto;
+        }
+
+        .logos img {
+            flex: 1 1 auto;
+            padding: 25px;
+            max-height: 130px;
+            vertical-align: middle;
+        }
+
+        .hr-logos {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .md-footer-meta__inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 1.0rem;
+        }
+
+        .md-footer-social {
+            padding-top: 20px;
+        }
+
+        /* Style for your link in its normal state */
+        a.inverse_link {
+            color: #ff7314;
+        }
+
+        /* Style for your link when it's hovered over */
+        a.inverse_link:hover {
+            color: #f0c36e;
+        }
+</style>
+
+<!-- Main site Entry button descriptions -->
+<section class="tx-container">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+            <div class="tx-hero__image">
+                <img src="assets/HelmoroRendering.png" draggable="false">
+            </div>
+            <div class="tx-hero__content">
+                <h1> Welcome to HelMoRo </h1>
+                <p>Welcome to the official documentation of <b>Helmoro</b>, the <b>Hel</b>bling <b>mo</b>bile
+                    <b>ro</b>bot. <br> Helmoro is an open-source robotic platform designed by Helbling Technik in
+                    Zurich, Switzerland.<br><br>
+                    It is equipped with LiDAR sensors and depth cameras for autonomous navigation.
+                    Additionally, we implemented a ROS node that allows the robot to be controlled with a game
+                    controller.
+                </p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
+                    class="md-button md-button--primary">
+                    Get started
+                </a>
+                <p>
+                    The website is structured into <a href="/hardware/bill_of_materials/" class="inverse_link">Hardware
+                        Documentation</a>
+                    and <a href="software/01_software_introduction/" class="inverse_link">Software Documentation</a>.
+                    <br><br>
+                    In the Hardware section, you will find a complete list of materials, access to all CAD files, as
+                    well as the complete assembly instructions.
+                    <br><br>
+                    In the Software section, you'll find a link to the repo containing all the source code as well as a
+                    complete guide on how to install and run all the packages. Additionally, we tried to explain the
+                    thoughts behind some of the algorithms.
+                </p>
+                <a href="{{ config.software_repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
+                    Go to Software Repo
+                </a>
+                <a href="{{ config.hardware_repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
+                    Go to Hardware Repo
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="md-grid md-typeset">
+        <div class="tx-video">
+            <iframe width=100% height="auto" src="https://www.youtube.com/embed/QdNnvhEyrZk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}

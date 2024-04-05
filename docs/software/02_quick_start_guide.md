@@ -102,7 +102,7 @@ rosrun rviz rviz -d `rospack find helmoro_description`/rviz/rviz_config.rviz
 
 This will start up Rviz and you can use the '2D Pose Estimate' and '2D Nav Goal' buttons to estimate its initial position and set its goal position on the map as in the image below. Make sure the checkmark for the occupancy map' is activated.
 
-![helmoro_intro](pictures/Rviz-buttons.png) 
+![helmoro_intro](pictures/Rviz-Buttons.png) 
 
 
 
