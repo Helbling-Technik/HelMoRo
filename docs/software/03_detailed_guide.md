@@ -145,7 +145,7 @@ You then can add a box into the environment and let Helmoro pick it up. Be remin
 To run the required nodes for the showcase on Helmoro you can run:
 
 ```sh
-roslaunch helmoro_description nav_helmoro.launch
+roslaunch helmoro_description showcase_helmoro.launch
 ```
 
 Additionally to the above written command to call rviz on your local computer
@@ -160,7 +160,7 @@ You then also need to start the joystick node (on your computer) with:
  roslaunch helmoro_joymanager joymanager.launch
 ```
 
-Make sure to connect the joystick to your computer
+Make sure to connect the joystick to your VM
 
 #### Advanced usage or tuning
 

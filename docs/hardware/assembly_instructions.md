@@ -2,6 +2,38 @@
 
 Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
 
+## Task 0: Get Ready
+
+Make sure you have the following tools at hand before you start assembling. 
+
+**Material**
+
+- Electronic components
+- Generative parts (3D printed and laser-cut parts)
+- Sheet Metals
+- Fasteners
+
+**Tools**
+
+- 2 mm hex-head key
+- 2.5 mm hex-head key
+- 8 mm hex-head socket
+- 18 mm wrench 
+- Flat-head screwdriver
+- TR9 Torx screwdriver
+- Soldering equipment
+
+
+**Skills**
+
+- Basic mechanical assembly skills
+- Soldering (connecting cables)
+
+
+**Time**
+
+- The estimated assembly time is 70 minutes.
+
 ## Task 1: Wheel assembly
 
 **Assembly Time**
