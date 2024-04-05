@@ -78,6 +78,9 @@ copyright: >
   Copyright &copy; 2024 Helbling Technik Zürich 
 
 extra:
+  analytics:
+    provider: google
+    property: G-TQFVDBEGQT
   generator: false
 
   social:
