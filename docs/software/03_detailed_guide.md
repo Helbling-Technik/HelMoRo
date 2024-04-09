@@ -148,7 +148,7 @@ To run the required nodes for the showcase on Helmoro you can run:
 roslaunch helmoro_description showcase_helmoro.launch
 ```
 
-Additionally to the above written command to call rviz on your local computer
+Additionally, the above written command to call rviz on your local computer
 
 ```sh
 rosrun rviz rviz -d `rospack find helmoro_description`/rviz/rviz_config.rviz
