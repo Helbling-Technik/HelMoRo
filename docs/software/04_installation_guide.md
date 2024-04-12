@@ -47,8 +47,8 @@ catkin build package_name
   - [message_logger](https://github.com/ANYbotics/message_logger)
   - [any_node](https://github.com/ANYbotics/any_node)
 - [joystick_drivers stack](http://wiki.ros.org/joy)
-- [helmoro_rplidar](https://github.com/HAJ-Helbling/Helmoro_RPLidar)
-- [ros_astra_camera_helmoro](https://git.htkz.helbling.ch/HTKZ_DLE_1175_Robotik/ros_astra_camera_helmoro.git)
+- [helmoro_rplidar](https://github.com/Helbling-Technik/Helmoro_RPLidar)
+- [ros_astra_camera_helmoro](https://github.com/Helbling-Technik/ros_astra_camera_helmoro)
 - [ros_imu_bno055](https://github.com/dheera/ros-imu-bno055)
 - [Navigation Stack](http://wiki.ros.org/navigation)
 - [gmapping](http://wiki.ros.org/gmapping)
@@ -62,8 +62,8 @@ cd ~/git
 git clone https://github.com/catkin/catkin_simple.git
 git clone https://github.com/ANYbotics/message_logger.git
 git clone https://github.com/ANYbotics/any_node.git
-git clone https://github.com/HAJ-Helbling/Helmoro_RPLidar.git
-git clone --branch Helmoro_2.0 https://git.htkz.helbling.ch/HTKZ_DLE_1175_Robotik/ros_astra_camera_helmoro.git
+git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
+git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
 sudo apt install ros-melodic-rgbd-launch ros-melodic-libuvc
 git clone https://github.com/dheera/ros-imu-bno055.git
 sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros
@@ -183,7 +183,7 @@ For further information, head to:
 
 This package allows a [Orbbec Astra](https://orbbec3d.com/product-astra-pro) RGB-D camera to communicate with ROS. Through it, images and pointclouds coming from the camera as well as transformations between the different frames are published as topics.
 
-Clone the [ros_astra_camera_helmoro](https://git.htkz.helbling.ch/HTKZ_DLE_1175_Robotik/ros_astra_camera_helmoro.git) repository into your workspace and install its dependencies by entering the following command into your terminal and replace `ROS_DISTRO` by the ROS distribution you are currently using (in this case `melodic`):
+Clone the [ros_astra_camera_helmoro](https://github.com/Helbling-Technik/ros_astra_camera_helmoro.git) repository into your workspace, switch to the branch `Helmoro_2.0` and install its dependencies by entering the following command into your terminal and replace `ROS_DISTRO` by the ROS distribution you are currently using (in this case `melodic`):
 
 ```sh
 sudo apt install ros-$ROS_DISTRO-rgbd-launch ros-$ROS_DISTRO-libuvc ros-$ROS_DISTRO-libuvc-camera ros-$ROS_DISTRO-libuvc-ros

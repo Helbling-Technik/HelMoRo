@@ -251,7 +251,7 @@ Troubleshooting:
 
 ### Issues concerning the Navigation Stack
 
-The Issues can be found under the [Issues](https://git.htkz.helbling.ch/HTKZ_DLE_1175_Robotik/Helmoro/issues) of the repository
+The Issues can be found under the [Issues](https://github.com/Helbling-Technik/HelMoRo/issues) of the repository
 
 ## Autonomous SLAM using explore_lite
 
