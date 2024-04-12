@@ -17,28 +17,18 @@ The packages included in Helmoro support ROS Melodic on Ubuntu 18.04.
 
    `echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc`
 
-3. Clone the repository into your catkin workspace. It is recommended to first create a new git folder, clone every required repository thereinto and thereafter create a soft link into your catkin workspace. The commands are stated in the following.
-   
-   ```
-   sh mkdir ~/git 
-   cd ~/git 
+3. Clone the repository into your catkin workspace. The commands are stated in the following.
+
+   ```sh
+   cd ~/catkin_ws/src
    git clone https://github.com/Helbling-Technik/HelMoRo-software.git 
-   ln -s ~/git/Helmoro ~/catkin_ws/src cd ~/catkin_ws 
    ```
 
-After that, clone the required repositories and make the required installations listed in the next section [Dependencies](#dependencies). Only after that, you can build Helmoro's internal packages using
-
-```sh
-catkin build package_name
-```
+After that, clone the required repositories and make the required installations listed in the next section [Dependencies](#dependencies).
 
 ## Dependencies
 
-In the following, the packages and stacks which are required to run the Helmoro are mentioned. Do not forget to build the acquired packages once you cloned them into your workspace with the following command:
-
-```sh
-catkin build package_name
-```
+In the following, the packages and stacks which are required to run the Helmoro are mentioned. Do not forget to build the acquired packages once you cloned them into your workspace.
 
 ### Overview
 
@@ -58,7 +48,7 @@ Clone or download all the required repositories or stacks all together with the 
 
 ```sh
 sudo apt-get install ros-melodic-joy
-cd ~/git
+cd ~/catkin_ws/src
 git clone https://github.com/catkin/catkin_simple.git
 git clone https://github.com/ANYbotics/message_logger.git
 git clone https://github.com/ANYbotics/any_node.git
@@ -66,17 +56,12 @@ git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
 git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
 sudo apt install ros-melodic-rgbd-launch ros-melodic-libuvc
 git clone https://github.com/dheera/ros-imu-bno055.git
-sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros
-sudo apt install ros-melodic-navigation
-sudo apt install ros-melodic-slam-gmapping
+sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros ros-melodic-navigation ros-melodic-slam-gmapping
 git clone https://github.com/hrnr/m-explore.git
 ```
 
-Do not forget to link the newly acquired packages into your catkin workspace build them with the following commands:
-
 ```sh
-ln -s package_name ~/catkin_ws/src
-catkin build package_name
+catkin build
 ```
 
 In order to build and run the object_detector and the hand_detector, you will need to install additional OpenCV libraries. Please see [5.11 OpenCV](#opencv) for details.

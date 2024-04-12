@@ -23,4 +23,3 @@ These parts allow Helmoro the following capabilities:
 - Autonomous mapping
 
 These capabilities can also be used within a Gazebo [Simulation](02_quick_start_guide.md#simulation) or on the physical Robot.
-
