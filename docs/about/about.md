@@ -3,7 +3,8 @@
 ![Image](about_image.png)
 
 
-[Helbling Technik](https://helbling.ch/en/about-us/business-units/technik) is a leading engineering and technology consulting firm based in Switzerland. Our team of over 400 engineering, IT and physics specialists generate new ideas and help you integrate state-of-the-art technologies. The passion for technology and problem-solving drives us to deliver cutting-edge products and services to our clients. Whether it's product design, prototyping, software development, or system integration, we excel in delivering high-quality solutions tailored to meet our clients' needs.
+[Helbling](https://helbling.ch/en) is a globally active engineering and innovation partner supporting deep-tech product development from early ideation to industrialization with over 500 engineering specialists.
+The passion for technology and problem-solving drives us to deliver cutting-edge products and services to our clients. Whether it's product design, prototyping, software development, or system integration, we excel in delivering high-quality solutions tailored to meet our clients' needs 
 
 <div style="display: flex;">
   <div style="flex: 3; display: flex; flex-direction: column; justify-content: center; padding-left: 20px;">
