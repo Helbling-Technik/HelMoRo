@@ -4,14 +4,30 @@ After setting up ROS and (in the best case) all needed repositories on your comp
 
 ## Setup
 
+### Simulation
+
+To run Helmoro in simulation just add
+
+```sh
+is_real_robot:=false use_rviz:=true use_gui:=true
+```
+
+to the end of the roslaunch command shown in [Launching](#launching). This will start virtual Helmoro, RVIZ, Gazebo and the joystick reader on your local computer, e.g.
+
+```sh
+roslaunch helmoro_description nav_helmoro.launch is_real_robot:=false use_rviz:=true use_gui:=true
+```
+
+which should work out of the box, if you followed the Installation guide
+
 ### Real Robot
 
-To run the physical Helmoro you will need to set up your own computer to communicate with Helmoro. For that you first need to find out Helmoro's IP address and connect it to the same wireless network as the computer. 
+To run the physical Helmoro you will need to set up your own computer to communicate with Helmoro. For that you first need to find out Helmoro's IP address and connect it to the same wireless network as the computer.
 Connecting Helmoro to the WiFi network is easiest done by plugging the Nvidia Jetson nano to an external monitor and connecting it to the wireless network using the ubuntu gui. As you will need to know its IP address later on it is convenient to assign it a static IP such that is stays constant within the network. This can be done via the router settings and is different for each router. The general idea is to link the Jetson mac address to some static IP.
 
 Remember both `<Your_IP>` being the IP of your linux system and `<Helmoro_IP_address>` being the IP of Helmoro in your used network. More info under [Run](03_detailed_guide.md#run).
 
-Now you will need to set environment variables on both devices. This is either done by typing the following commands in all terminals or by adding the following to your .bashrc and thus making it permanent per machine ('nano ~/.bashrc' and paste the lines below). 
+Now you will need to set environment variables on both devices. This is either done by typing the following commands in all terminals or by adding the following to your .bashrc and thus making it permanent per machine ('nano ~/.bashrc' and paste the lines below).
 
 ```sh
 export ROS_IP=<Your_IP>
@@ -23,7 +39,6 @@ The computer additionally needs the ROS_HOSTNAME in order to run the joystick ma
 ``` sh
 export ROS_HOSTNAME=<Your_IP>
 ```
-
 
 To run commands on Helmoro you will need to ssh into the NVIDIA Jetson:
 
@@ -48,17 +63,6 @@ roslaunch helmoro_joymanager joymanager.launch
 ```
 --->
 
-
-### Simulation
-
-To run Helmoro in simulation just add
-
-```sh
-is_real_robot:=false use_rviz:=true use_gui:=true
-```
-
-to the end of the roslaunch command shown in [Launching](#launching). This will start virtual Helmoro, RVIZ, Gazebo and the joystick reader on your local computer.
-
 ## Launching
 
 Run these commands on Helmoro or locally depending on your desired [Setup](#setup).
@@ -73,9 +77,9 @@ For this one needs to first start one of the many different launch files on Helm
 roslaunch helmoro_description helmoro.launch
 ```
 
-Secondly one needs to actually start the joystick node on the local ubuntu computer which is connected to the same network. Before doing so make sure the joystick is connected via the usb receiver to the computer. 
+Secondly one needs to actually start the joystick node on the local ubuntu computer which is connected to the same network. Before doing so make sure the joystick is connected via the usb receiver to the computer.
 Similarly, shift the switch to 'X' for XInput instead of 'D' for DirectInput such that floating point values will be broadcasted.
-Also make sure to press the 'mode'-button such that the LED next to it lights up. This is necessary for the correct mapping of the inputs. 
+Also make sure to press the 'mode'-button such that the LED next to it lights up. This is necessary for the correct mapping of the inputs.
 
 ``` sh
 roslaunch helmoro_joymanager joymanager.launch
@@ -102,9 +106,7 @@ rosrun rviz rviz -d `rospack find helmoro_description`/rviz/rviz_config.rviz
 
 This will start up Rviz and you can use the '2D Pose Estimate' and '2D Nav Goal' buttons to estimate its initial position and set its goal position on the map as in the image below. Make sure the checkmark for the occupancy map' is activated.
 
-![helmoro_intro](pictures/Rviz-Buttons.png) 
-
-
+![helmoro_intro](pictures/Rviz-Buttons.png)
 
 More information can be found in the chapter [Autonomous Navigation using the Navigation Stack](#autonomous-Navigation-using-the-Navigation-Stack).
 
