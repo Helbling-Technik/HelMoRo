@@ -15,7 +15,7 @@ nav:
         - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
     - Software:
-        - Introduction: software/01_software_introduction.md
+        # - Introduction: software/01_software_introduction.md
         - Quick Start Guide:  software/02_quick_start_guide.md
         - Detailed Usage Guide:  software/03_detailed_guide.md
         - Installation: software/04_installation_guide.md
