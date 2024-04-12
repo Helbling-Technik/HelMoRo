@@ -1,6 +1,6 @@
 # Introduction
 
-This section aims to explain and document the code necessary to run Helmoro. All the relevant computation that allows Helmoro to navigate autonomously happens on board using ROS.
+This section aims to explain and document the code necessary to run HelMoRo. All the relevant computation that allows Helmoro to navigate autonomously happens on board using ROS.
 
 Helmoro is equipped with the following electronic parts:
 
@@ -13,7 +13,7 @@ Helmoro is equipped with the following electronic parts:
 
 ![helmoro_intro](pictures/helmoro_intro.png)
 
-Helmoro has the following capabilities:
+These parts allow Helmoro the following capabilities:
 
 - Video, map and position streaming to local computer
 - Remote joystick control
@@ -22,5 +22,5 @@ Helmoro has the following capabilities:
 - Remote controlled mapping
 - Autonomous mapping
 
-These capabilities can also be used within a Gazebo [Simulation](02_quick_start_guide.md#simulation)
+These capabilities can also be used within a Gazebo [Simulation](02_quick_start_guide.md#simulation) or on the physical Robot.
 

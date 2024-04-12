@@ -62,53 +62,8 @@ Engage with the project maintainers during the PR review process and address any
 Continue contributing by addressing more issues, reviewing others' contributions, and participating in project discussions.
 
 
-## Setting Up Your Environment for Documentation
-### Installation
+## Contribution to Documentation
 
-Before you start contributing to the documentation, you need to set up MkDocs, which is used to build and manage the project documentation.
+Before you start contributing to the documentation, you need to set up MkDocs, which is used to build and manage the project documentation. 
+You can find all the Information in the [README.md](README.md)
 
-MkDocs documentation cna be found [here](https://www.mkdocs.org/user-guide/), but below is a Quick-start guide from us.
-
-**Install MkDocs:**
-
-```bash
-pip install mkdocs
-```
-
-Ensure that MkDocs is added to your system's environment variables post-installation. On Windows, access this setting through:
-
-- *Advanced System Settings* → *System Properties* → *Environment Variables*
-
-Find the `Path` variable under *System Variables* and verify that it includes the directory containing the MkDocs executable. Add it if necessary.
-
-**Additional Packages:**
-
-For enhanced documentation features, install the following packages:
-
-- **MkDocs Table Reader Plugin:**
-
-  ```bash
-  pip install mkdocs-table-reader-plugin
-  ```
-
-- **Markdown Include:**
-
-  ```bash
-  pip install markdown-include
-  ```
-
-- **MkDocs Material:**
-
-  ```bash
-  pip install mkdocs-material
-  ```
-
-### Run Website Locally
-
-To see how the documentation looks while you work on it, you can run a local server:
-
-```bash
-mkdocs serve -a localhost:8888
-```
-
-Make sure the specified port (8888) is available. The website will be accessible at [http://localhost:8888](http://localhost:8888).
