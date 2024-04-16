@@ -1,12 +1,12 @@
 # Quick Start Guide
 
-After setting up ROS and (in the best case) all needed repositories on your computer following the [Installation](04_installation_guide.md) you can use Helmoro. Helmoro can be run in simulation using gazebo locally on your computer or as a real robot. If you require more information and tips read chapter [Detailed Usage](03_detailed_guide.md).
+After setting up ROS and (in the best case) all needed repositories on your computer following the [Installation Guide](04_installation_guide.md) you can use Helmoro. Helmoro can be run in simulation using gazebo locally on your computer or as a real robot. If you require more information and tips read chapter [Detailed Usage](03_detailed_guide.md).
 
-## Setup
+## Quick Setup
 
 ### Simulation
 
-To run Helmoro in simulation just add
+To run Helmoro in simulation just add the following flags:
 
 ```sh
 is_real_robot:=false use_rviz:=true use_gui:=true
@@ -18,7 +18,7 @@ to the end of the roslaunch command shown in [Launching](#launching). This will 
 roslaunch helmoro_description nav_helmoro.launch is_real_robot:=false use_rviz:=true use_gui:=true
 ```
 
-which should work out of the box, if you followed the Installation guide
+which should work out of the box, if you followed the Installation guide. The section [Launching](#launching) will provide you with further detail and different launch scripts.
 
 ### Real Robot
 
@@ -65,7 +65,7 @@ roslaunch helmoro_joymanager joymanager.launch
 
 ## Launching
 
-Run these commands on Helmoro or locally depending on your desired [Setup](#setup).
+Run these commands on Helmoro or locally depending on your desired [Setup](#quick_setup).
 
 ### Joystick control
 

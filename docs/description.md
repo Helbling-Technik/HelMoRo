@@ -1,6 +1,6 @@
 Explore the world of robotics with HelMoRo, a versatile four-wheeled robot designed by [Helbling](https://www.helbling.ch/en). With its user-friendly assembly process and state-of-the-art components, HelMoRo provides an exciting platform for robotics enthusiasts and professionals alike.
 
-<iframe src="https://helbling2.autodesk360.com/shares/public/SHd38bfQT1fb47330c99f726a386eb5b24d0?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![helmoro_intro](software/pictures/helmoro_intro.png)
 
 ## Key Features
 
@@ -15,4 +15,5 @@ Equipped with state-of-the-art sensors including [Slamtec RPlidar LIDAR](https:/
 - **Real-Time Monitoring**: Streams video, map, and positional data for remote monitoring and analysis.
 - **Remote and Autonomous Control**: Easily controlled via a remote joystick or capable of autonomous navigation through advanced sensors for precise movement and obstacle avoidance.
 - **Mapping and Detection**: Performs both remote-controlled and autonomous mapping, allowing it to create detailed environmental maps. Additionally, HelMoRo can detect and autonomously handle objects.
+
 
