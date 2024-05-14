@@ -4,25 +4,23 @@ The packages included in Helmoro support ROS Melodic on Ubuntu 18.04.
 
 1. Install [ROS Melodic](http://wiki.ros.org/melodic/Installation) on Helmoros Nvidia Jetson and on your local machine.
 
-2. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+   (For Helbling Employees: Make sure that you are in a Wifi that has enough open ports. Otherwise you will not be able to install ROS proberly.)
 
-   ```sh
-   mkdir -p ~/catkin_ws/src
-   cd ~/catkin_ws/
-   catkin build
-   source devel/setup.bash
-   ```
+2. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+      
+         mkdir -p ~/catkin_ws/src
+         cd ~/catkin_ws/
+         catkin build
+         source devel/setup.bash
 
    Either you must run the above source command each time you open a new terminal window or add it to your .bashrc file as follows
 
-   `echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc`
+         echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 3. Clone the repository into your catkin workspace. The commands are stated in the following.
 
-   ```sh
-   cd ~/catkin_ws/src
-   git clone https://github.com/Helbling-Technik/HelMoRo-software.git 
-   ```
+         cd ~/catkin_ws/src
+         git clone https://github.com/Helbling-Technik/HelMoRo-software.git 
 
 After that, clone the required repositories and make the required installations listed in the next section [Dependencies](#dependencies).
 
@@ -46,23 +44,26 @@ In the following, the packages and stacks which are required to run the Helmoro 
 
 Clone or download all the required repositories or stacks all together with the following commands
 
-```sh
-sudo apt-get install ros-melodic-joy
-cd ~/catkin_ws/src
-git clone https://github.com/catkin/catkin_simple.git
-git clone https://github.com/ANYbotics/message_logger.git
-git clone https://github.com/ANYbotics/any_node.git
-git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
-git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
-sudo apt install ros-melodic-rgbd-launch ros-melodic-libuvc
-git clone https://github.com/dheera/ros-imu-bno055.git
-sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros ros-melodic-navigation ros-melodic-slam-gmapping
-git clone https://github.com/hrnr/m-explore.git
-```
+      sudo apt-get install ros-melodic-joy
+      cd ~/catkin_ws/src
+      git clone https://github.com/catkin/catkin_simple.git
+      git clone https://github.com/ANYbotics/message_logger.git
+      git clone https://github.com/ANYbotics/any_node.git
+      git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
+      git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
+      sudo apt install ros-melodic-rgbd-launch ros-melodic-libuvc
+      git clone https://github.com/dheera/ros-imu-bno055.git
+      sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros ros-melodic-navigation ros-melodic-slam-gmapping
+      git clone https://github.com/hrnr/m-explore.git
+      cd ~/catkin_ws/
 
-```sh
-catkin build
-```
+Before you can build all repositories you need to install the python_catkin_tools.
+
+      sudo apt install python-catkin-tools
+
+You should now be able to build all the installed packages with the followiung command
+
+      catkin build
 
 In order to build and run the object_detector and the hand_detector, you will need to install additional OpenCV libraries. Please see [5.11 OpenCV](#opencv) for details.
 
