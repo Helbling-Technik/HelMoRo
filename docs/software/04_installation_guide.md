@@ -4,10 +4,9 @@ The packages included in Helmoro support ROS Melodic on Ubuntu 18.04.
 
 1. Install [ROS Melodic](http://wiki.ros.org/melodic/Installation) on Helmoros Nvidia Jetson and on your local machine.
 
-   (For Helbling Employees: Make sure that you are in a Wifi that has enough open ports. Otherwise you will not be able to install ROS proberly.)
-
 2. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
       
+         sudo apt install python3-catkin-tools
          mkdir -p ~/catkin_ws/src
          cd ~/catkin_ws/
          catkin build
@@ -44,22 +43,18 @@ In the following, the packages and stacks which are required to run the Helmoro 
 
 Clone or download all the required repositories or stacks all together with the following commands
 
-      sudo apt-get install ros-melodic-joy
+      sudo apt-get install ros-noetic-joy
       cd ~/catkin_ws/src
       git clone https://github.com/catkin/catkin_simple.git
       git clone https://github.com/ANYbotics/message_logger.git
       git clone https://github.com/ANYbotics/any_node.git
       git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
       git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
-      sudo apt install ros-melodic-rgbd-launch ros-melodic-libuvc
+      sudo apt install ros-noetic-rgbd-launch
       git clone https://github.com/dheera/ros-imu-bno055.git
-      sudo apt install ros-melodic-libuvc-camera ros-melodic-libuvc-ros ros-melodic-navigation ros-melodic-slam-gmapping
+      sudo apt install ros-noetic-libuvc-camera ros-noetic-libuvc-ros ros-noetic-navigation ros-noetic-slam-gmapping
       git clone https://github.com/hrnr/m-explore.git
       cd ~/catkin_ws/
-
-Before you can build all repositories you need to install the python_catkin_tools.
-
-      sudo apt install python-catkin-tools
 
 You should now be able to build all the installed packages with the followiung command
 
