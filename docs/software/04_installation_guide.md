@@ -5,21 +5,27 @@ The packages included in Helmoro support ROS Melodic on Ubuntu 18.04.
 1. Install [ROS Melodic](http://wiki.ros.org/melodic/Installation) on Helmoros Nvidia Jetson and on your local machine.
 
 2. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
-      
-         sudo apt install python3-catkin-tools
-         mkdir -p ~/catkin_ws/src
-         cd ~/catkin_ws/
-         catkin build
-         source devel/setup.bash
+
+      ```sh
+      sudo apt install python3-catkin-tools
+      mkdir -p ~/catkin_ws/src
+      cd ~/catkin_ws/
+      catkin build
+      source devel/setup.bash
+      ```
 
    Either you must run the above source command each time you open a new terminal window or add it to your .bashrc file as follows
 
-         echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+      ```sh
+      echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+      ```
 
 3. Clone the repository into your catkin workspace. The commands are stated in the following.
 
-         cd ~/catkin_ws/src
-         git clone https://github.com/Helbling-Technik/HelMoRo-software.git 
+      ```sh
+      cd ~/catkin_ws/src
+      git clone https://github.com/Helbling-Technik/HelMoRo-software.git
+      ```
 
 After that, clone the required repositories and make the required installations listed in the next section [Dependencies](#dependencies).
 
@@ -43,22 +49,26 @@ In the following, the packages and stacks which are required to run the Helmoro 
 
 Clone or download all the required repositories or stacks all together with the following commands
 
-      sudo apt-get install ros-noetic-joy
-      cd ~/catkin_ws/src
-      git clone https://github.com/catkin/catkin_simple.git
-      git clone https://github.com/ANYbotics/message_logger.git
-      git clone https://github.com/ANYbotics/any_node.git
-      git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
-      git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
-      sudo apt install ros-noetic-rgbd-launch
-      git clone https://github.com/dheera/ros-imu-bno055.git
-      sudo apt install ros-noetic-libuvc-camera ros-noetic-libuvc-ros ros-noetic-navigation ros-noetic-slam-gmapping
-      git clone https://github.com/hrnr/m-explore.git
-      cd ~/catkin_ws/
+```sh
+sudo apt-get install ros-noetic-joy
+cd ~/catkin_ws/src
+git clone https://github.com/catkin/catkin_simple.git
+git clone https://github.com/ANYbotics/message_logger.git
+git clone https://github.com/ANYbotics/any_node.git
+git clone https://github.com/Helbling-Technik/Helmoro_RPLidar
+git clone --branch Helmoro_2.0 https://github.com/Helbling-Technik/ros_astra_camera_helmoro
+sudo apt install ros-noetic-rgbd-launch
+git clone https://github.com/dheera/ros-imu-bno055.git
+sudo apt install ros-noetic-libuvc-camera ros-noetic-libuvc-ros ros-noetic-navigation ros-noetic-slam-gmapping
+git clone https://github.com/hrnr/m-explore.git
+cd ~/catkin_ws/
+```
 
 You should now be able to build all the installed packages with the followiung command
 
-      catkin build
+```sh
+catkin build
+```
 
 In order to build and run the object_detector and the hand_detector, you will need to install additional OpenCV libraries. Please see [5.11 OpenCV](#opencv) for details.
 
@@ -249,52 +259,56 @@ Google's mediapipe uses OpenCV 4, and it is straightforward to compile the hand_
 #### Installing OpenCV 3.2 or 4
 
 1. Create a temporary directory, and switch to it:
-   `mkdir ~/opencv_build && cd ~/opencv_build`
+
+   ```sh
+   mkdir ~/opencv_build && cd ~/opencv_build`
+   ```
+
 2. Download the sources for OpenCV 3.2 or OpenCV 4 (any version > 4 should work) into `~/opencv_build`. You will need both `opencv` and `opencv_contrib` packages. The source files can be downloaded under the following links: [opencv](https://github.com/opencv/opencv/releases), [opencv_contrib](https://github.com/opencv/opencv_contrib/releases).
 3. Make a temporary build directory and unzip the folders in your build directory. The folder structure should look like this:
 
-```sh
-~/opencv_build/
-~/opencv_build/opencv/
-~/opencv_build/opencv_contrib/
-```
+      ```sh
+      ~/opencv_build/
+      ~/opencv_build/opencv/
+      ~/opencv_build/opencv_contrib/
+      ```
 
 4. Create a build directory, and switch to it:
 
-```sh
-cd ~/opencv_build/opencv
-mkdir build && cd build
-```
+      ```sh
+      cd ~/opencv_build/opencv
+      mkdir build && cd build
+      ```
 
 5. Set up the OpenCV build with CMake. For a basic installation:
 
-```sh
-cmake -D CMAKE_BUILD_TYPE=RELEASE \
-    -D CMAKE_INSTALL_PREFIX=/usr/local \
-    -D INSTALL_C_EXAMPLES=ON \
-    -D INSTALL_PYTHON_EXAMPLES=ON \
-    -D OPENCV_GENERATE_PKGCONFIG=ON \
-    -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \
-    -D BUILD_EXAMPLES=ON ..
-```
+      ```sh
+      cmake -D CMAKE_BUILD_TYPE=RELEASE \
+      -D CMAKE_INSTALL_PREFIX=/usr/local \
+      -D INSTALL_C_EXAMPLES=ON \
+      -D INSTALL_PYTHON_EXAMPLES=ON \
+      -D OPENCV_GENERATE_PKGCONFIG=ON \
+      -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \
+      -D BUILD_EXAMPLES=ON ..
+      ```
 
-To configure your OpenCV build more easily, install a CMake GUI, `sudo apt install cmake-qt-gui` or `sudo apt install cmake-curses-gui` and run it with `cmake-gui`.
-To run the hand_detector on GPU, which is based on Google's mediapipe, you need to configure your OpenCV build to support CUDA/GPU.
+      To configure your OpenCV build more easily, install a CMake GUI, `sudo apt install cmake-qt-gui` or `sudo apt install cmake-curses-gui` and run it with `cmake-gui`.
+      To run the hand_detector on GPU, which is based on Google's mediapipe, you need to configure your OpenCV build to support CUDA/GPU.
 
 6. Start the compilation process:
 
-```sh
-make -j8
-```
+      ```sh
+      make -j8
+      ```
 
-Modify the `-j` according to the number of cores of your processor. If you don't know the number of cores, type `nproc` in your terminal.
+      Modify the `-j` according to the number of cores of your processor. If you don't know the number of cores, type `nproc` in your terminal.
 
-The compilation will take a lot of time. Go grab a coffee and watch some classic [youtube videos](https://www.watson.ch/spass/youtube/278020811-die-21-besten-viralen-videos-der-schweiz).
+      The compilation will take a lot of time. Go grab a coffee and watch some classic [youtube videos](https://www.watson.ch/spass/youtube/278020811-die-21-besten-viralen-videos-der-schweiz).
 
 7. To verify whether OpenCV has been installed successfully, type the following command.
 
-```sh
-pkg-config --modversion opencv4
-```
+      ```sh
+      pkg-config --modversion opencv4
+      ```
 
-(adjust the command for `opencv3`, `opencv2`, ...).
+      (adjust the command for `opencv3`, `opencv2`, ...).
