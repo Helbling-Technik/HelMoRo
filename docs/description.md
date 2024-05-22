@@ -8,7 +8,7 @@ Explore the world of robotics with HelMoRo, a versatile four-wheeled robot desig
 Built on a sturdy four-wheel chassis, its skid-steered navigation system with [Roboclaw Motor Controllers](https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html) offers ensures agile movement and precise control.
 - **Advanced Sensing**: 
 Equipped with state-of-the-art sensors including [Slamtec RPlidar LIDAR](https://www.slamtec.com/en/Lidar/A2/) and an [Orbbec Astra Pro RGB-D Camera](https://shop.orbbec3d.com/Astra-Pro-Plus) and an [Adafruit BNO055 Absolut Orientation](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor) IMU Sensor, HelMoRo accurately perceives its surroundings to navigate and interact with its environment effectively.
-- **Powerful Computing**: Powered by the [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) running Ubuntu 18.04, HelMoRo handles complex data processing, supporting a variety of machine learning applications.
+- **Powerful Computing**: Powered by the [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) running Ubuntu 20.04, HelMoRo handles complex data processing, supporting a variety of machine learning applications.
 
 ## Capabilities
 

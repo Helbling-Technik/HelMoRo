@@ -1,8 +1,8 @@
 # Installation
 
-The packages included in Helmoro support ROS Melodic on Ubuntu 18.04.
+The packages included in Helmoro support ROS Noetic on Ubuntu 20.04.
 
-1. Install [ROS Melodic](http://wiki.ros.org/melodic/Installation) on Helmoros Nvidia Jetson and on your local machine.
+1. Install [ROS Noetic](http://wiki.ros.org/noetic/Installation) on Helmoros Nvidia Jetson and on your local machine.
 
 2. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 

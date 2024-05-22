@@ -50,7 +50,7 @@ You can also use the following script in each terminal, after you filled in the 
 ```sh
 #!/bin/bash
 
-source /opt/ros/melodic/setup.bash
+source /opt/ros/noetic/setup.bash
 
 # select workspace
 source /home/$USER/<Your catkin workspace>/devel/setup.bash
