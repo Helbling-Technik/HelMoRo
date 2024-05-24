@@ -25,6 +25,11 @@ nav:
     - About: about/about.md
 
 theme:
+
+  # code blocks can be copied
+  features:
+    - content.code.copy
+
   name: material
   custom_dir: docs/.overrides
   logo: assets/logos/Helbling_Logo_weiss.png
@@ -68,10 +73,6 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
-
-  # code blocks can be copied
-  features:
-    - content.code.copy
 
 
 copyright: >
