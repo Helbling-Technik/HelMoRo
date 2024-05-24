@@ -9,7 +9,7 @@ Helmoro is equipped with the following electronic parts:
 - 1 Lidar ([RPLidar Slamtec](https://www.slamtec.com/en/Lidar/A2))
 - 1 RGB-D camera ([Orbbec Astra Pro](https://orbbec3d.com/product-astra-pro/))
 - 1 IMU ([Adafruit BNO055 Absolut Orientation](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor))
-- 1 [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) with Ubuntu 18.04
+- 1 [NVIDIA Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) with [Ubuntu 20.04](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
 
 ![helmoro_intro](pictures/helmoro_intro.png)
 
