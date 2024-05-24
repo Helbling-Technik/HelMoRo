@@ -65,5 +65,5 @@ Continue contributing by addressing more issues, reviewing others' contributions
 ## Contribution to Documentation
 
 Before you start contributing to the documentation, you need to set up MkDocs, which is used to build and manage the project documentation. 
-You can find all the Information in the [README.md](README.md)
+You can find all the Information in the [README.md](https://github.com/Helbling-Technik/HelMoRo/blob/master/docs/README.md#how-to-build-website)
 

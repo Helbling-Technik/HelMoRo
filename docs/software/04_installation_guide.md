@@ -13,8 +13,8 @@ The packages included in Helmoro support ROS Noetic on Ubuntu 20.04.
       catkin build
       source devel/setup.bash
       ```
-
-   Either you must run the above source command each time you open a new terminal window or add it to your .bashrc file as follows
+      
+      Either you must run the above source command each time you open a new terminal window or add it to your .bashrc file as follows
 
       ```sh
       echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
