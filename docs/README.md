@@ -15,16 +15,27 @@ Look for the ``Path`` variable under *System variables* and check for the direct
 Continue installing the following packages using pip
 
 - table reader
-  ```
+
+  ```sh
   pip install mkdocs-table-reader-plugin 
   ```
+
 - markdown include
-  ```
+
+  ```sh
   pip install markdown-include 
   ```
+
 - mkdocs material
-  ```
+
+  ```sh
   pip install mkdocs-material
+  ```
+
+- openpyxl
+
+  ```sh
+  pip install openpyxl
   ```
 
 ## Run website locally
