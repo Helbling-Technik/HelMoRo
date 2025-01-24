@@ -14,13 +14,14 @@ nav:
         - CAD: hardware/cad.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
-    - Software:
-        # - Introduction: software/01_software_introduction.md
-        - Quick Start Guide:  software/02_quick_start_guide.md
-        - Detailed Usage Guide:  software/03_detailed_guide.md
-        - Installation: software/04_installation_guide.md
-        - Software Architecture: software/05_software_architecture.md 
-        - Algorithms: software/06_algorithms.md
+    - Software (ROS 1):
+        - Introduction: software_ros1/01_software_introduction.md
+        - Quick Start Guide:  software_ros1/02_quick_start_guide.md
+        - Detailed Usage Guide:  software_ros1/03_detailed_guide.md
+        - Installation: software_ros1/04_installation_guide.md
+        - Software Architecture: software_ros1/05_software_architecture.md 
+        - Algorithms: software_ros1/06_algorithms.md
+    
     - Collaboration: collaboration.md
     - About: about/about.md
 
