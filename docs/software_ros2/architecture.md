@@ -45,15 +45,6 @@ In the following, each package of the Helmoro ROS architecture is explained shor
 | Wiring  |- Wire both RoboClaws to the Jetson Nano SBC via Micro-USB to Micro-USB cable. |
 | Setting | - Connect one RoboClaw to PC via USB and open it with the downloaded [BasicmicroMotionStudio](https://www.basicmicro.com/downloads) <br>- Don’t set any of the two RoboClaws to USB-TTL Relay Mode <br>- Set an address for each RoboClaw in the General Settings. Note for this wiring, the addresses can be equal since ports are different (/dev/ttyACM0 and /dev/ttyACM1 in Linux) <br>- Set Baudrate you would like to use in the General Settings. <br>- [Configure the PID values](https://resources.basicmicro.com/auto-tuning-with-motion-studio) of the RoboClaws if not yet done. <br>- Don’t forget to Device &rarr; Write Settings in the top left corner before disconnecting your RoboClaw. |
 
-#### Troubleshooting
-
-In case you are getting errors from this package and the Roboclaw Motor Controllers are not working, go through the following quick checks:
-
-1. Check if the port name of both Roboclaws appear when plugin in, the USB by typing `ls /dev/ttyACM*`
-2. Check if you have the authority to write to this port. Otherwise type `chmod 666 <portname>` in order to add the authority.
-3. Also, when using this node with two USB cables, it can happen that the portnames of the left and the right roboclaw motor controller swap (`/dev/ttyACM0` <-> `/dev/ttyACM1`). Since, to this point their USB ports are not fixed. If this happens, simply swap the two addresses for the left and the right controller specified in the param file.
-
-
 ## helmoro_sim
 ### bringup
 - manages the launch process of the gazebo simulation and spawns the robot
