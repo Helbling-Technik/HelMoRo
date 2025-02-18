@@ -1,4 +1,4 @@
-### Network 
+## Network 
 In case you can't receive or send messages over your network, go through these checks:
 
 1. Do your robot and computer have the same [ROS_DOMAIN_ID](https://docs.ros.org/en/foxy/Concepts/About-Domain-ID.html)?
@@ -10,7 +10,7 @@ In case you can't receive or send messages over your network, go through these c
 3. Is multicasting enabled in your network interfaces? Is multicasting enabled in your router? Check by using the [multicast](https://index.ros.org/p/ros2multicast/) package.
 
 
-### Motors
+## Motors
 
 In case you are getting errors from the helmoro_motor_controls and the Roboclaw Motor Controllers are not working, go through the following quick checks:
 

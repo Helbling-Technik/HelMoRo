@@ -1,7 +1,7 @@
 # Description
 Explore the world of robotics with HelMoRo, a versatile four-wheeled robot designed by [Helbling](https://www.helbling.ch/en). With its user-friendly assembly process and state-of-the-art components, HelMoRo provides an exciting platform for robotics enthusiasts and professionals alike.
 
-![helmoro_intro](software_ros1/pictures/helmoro_intro.png)
+![helmoro_intro](assets/helmoro_intro.png)
 
 ## Key Features
 
