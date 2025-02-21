@@ -2,7 +2,7 @@
 
 ## Downloads
 
-In addition to the [Fusion 360 Widget](https://helbling2.autodesk360.com/shares/public/SHd38bfQT1fb47330c99f726a386eb5b24d0), we provide the model in the following formats:
+In addition to the [Fusion 360 Widget ](https://helbling2.autodesk360.com/shares/public/SHd38bfQT1fb47330c99f726a386eb5b24d0) (HelMoRo with Raspberry Pi 5), we provide the model in the following formats:
 
 - [Solidworks 2021](https://github.com/Helbling-Technik/HelMoRo/tree/master/cad/solidworks) 
 - [STEP](https://github.com/Helbling-Technik/HelMoRo/tree/master/cad/step) 

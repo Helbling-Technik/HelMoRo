@@ -5,7 +5,7 @@ The Bill of Materials should be used to order all the parts before starting the 
 
 Be aware that the **total estimated costs** of all parts of Helmoro are approximately: **1500.- Fr.**
 
-Hint: Use the model-browser in the widget to search for a specific part name ([naming convention](../cad#naming-convention)).
+Hint: Use the model-browser in the widget to search for a specific part name ([naming convention](../cad#naming-convention)). The widget shows the HelMoRo variant equipped with a Raspberry Pi 5, though the onboard computer could be assembled with a Jetson Nano too.
 
 <iframe src="https://helbling2.autodesk360.com/shares/public/SHd38bfQT1fb47330c99f726a386eb5b24d0?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 

@@ -1,6 +1,6 @@
 # Assembly Instructions
 
-Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started!
+Do you have all the parts listed in the [Bill of Materials](../bill_of_materials) ready? Then let's get started! This guide works for both the HelMoRo ROS 1 variant equipped with a NVIDIA Jetson Nano or the ROS 2 variant equipped with a Raspberry Pi 5.
 
 ## Task 0: Get Ready
 
@@ -147,7 +147,7 @@ Mount the IMU using 4x M2x6 screws and 4x M2 washers.
 Secure the top plate to the frame mount using 4x M3x8 screws.
 
 
-### Step 4: Fan on Jetson
+### Step 4: Fan on Jetson (skip when using the Raspberry Pi)
 
 **Required Parts:**
 
@@ -161,16 +161,16 @@ Secure the top plate to the frame mount using 4x M3x8 screws.
 In order to provide some cooling, install the fan on the Jetson using 4x M2.5x16 screws and 4x M2.5 nuts.
 
 
-### Step 5: Mount Jetson on Top Plate
+### Step 5: Mount Computer on Top Plate
 
 **Required Parts:**
 
-- 1x HEL-04-03004-00 / Base Plate for Jetson
+- 1x HEL-04-03004-00 / Base Plate
 - 4x DIN 7984 - M3 x 8 --- 6.5N / Screw M3x8
 
 ![Image](assembly_instructions/T2S5.png)
 
-Place the Base plate onto the Top Plate. Put the Jetson onto its base plate and attach both to the Top Plate using 4x M3x8 screws.
+Place the Base plate onto the Top Plate. Put the computer (Jetson Nano or Raspberry Pi 5) onto its base plate and attach both to the Top Plate using 4x M3x8 screws.
 
 
 ### Step 6: Mount Motor Controller

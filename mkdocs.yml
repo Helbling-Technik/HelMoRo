@@ -2,7 +2,7 @@
 site_name: HelMoRo
 site_url: https://helbling-technik.github.io/HelMoRo/
 
-software_repo_url: https://github.com/Helbling-Technik/HelMoRo-software
+software_repo_url: https://github.com/Helbling-Technik/HelMoRo-software-ROS2
 hardware_repo_url: https://github.com/Helbling-Technik/HelMoRo
 
   
@@ -14,13 +14,18 @@ nav:
         - CAD: hardware/cad.md
         - Electronic System Architecture: hardware/electronic_system_architecture.md
         - Assembly Instructions: hardware/assembly_instructions.md
-    - Software:
-        # - Introduction: software/01_software_introduction.md
-        - Quick Start Guide:  software/02_quick_start_guide.md
-        - Detailed Usage Guide:  software/03_detailed_guide.md
-        - Installation: software/04_installation_guide.md
-        - Software Architecture: software/05_software_architecture.md 
-        - Algorithms: software/06_algorithms.md
+    - Software (ROS 2):
+        - Installation: software_ros2/installation.md
+        - Usage Guide:  software_ros2/usage_guide.md
+        - Software Architecture: software_ros2/architecture.md 
+        - Troubleshooting: software_ros2/troubleshooting.md
+    - Software (ROS 1):
+        - Quick Start Guide:  software_ros1/02_quick_start_guide.md
+        - Detailed Usage Guide:  software_ros1/03_detailed_guide.md
+        - Installation: software_ros1/04_installation_guide.md
+        - Software Architecture: software_ros1/05_software_architecture.md 
+        - Algorithms: software_ros1/06_algorithms.md
+    
     - Collaboration: collaboration.md
     - About: about/about.md
 
@@ -75,7 +80,7 @@ copyright: >
   Software is shared under the BSD-3 license. <br> 
   CAD and mechanics design files are shared under the Creative Commons CC-BY-4.0. <br>
   <br>
-  Copyright &copy; 2024 Helbling Technik Zürich 
+  Copyright &copy; 2025 Helbling Technik Zürich 
 
 extra:
   analytics:
